@@ -7,6 +7,7 @@ import Schedule from './Schedule';
 import Faq from './Faq';
 import Speakers from './Speakers';
 import Sponsors from './Sponsors';
+import Home from './Home';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div>
         <Router>
           <Routes>
-            <Route path="/" element={<Welcome />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/welcome" element={<Welcome />} />
             <Route exact path="/tracks" element={<Tracks />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/faq" element={<Faq />} />
