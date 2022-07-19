@@ -8,6 +8,8 @@ import Faq from './Faq';
 import Speakers from './Speakers';
 import Sponsors from './Sponsors';
 import Home from './Home';
+import Apply from './Apply';
+import Prizes from './Prizes';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/welcome" element={<Welcome />} />
+            <Route path="/apply" element={<Apply />} />
             <Route exact path="/tracks" element={<Tracks />} />
+            <Route exact path="/prizes" element={<Prizes />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/speakers" element={<Speakers />} />
