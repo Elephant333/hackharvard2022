@@ -18,8 +18,11 @@ import Prizes from './Prizes';
 
 function App() {
   return (
-    <>
-      <nav hidden>Future Nav</nav>
+    <div
+      style={{
+        minHeight: '100vh',
+      }}
+    >
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -34,7 +37,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
