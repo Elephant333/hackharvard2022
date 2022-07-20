@@ -1,6 +1,11 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import Welcome from './Welcome';
 import Tracks from './Tracks';
 import Schedule from './Schedule';
@@ -13,22 +18,21 @@ import Prizes from './Prizes';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/welcome" element={<Welcome />} />
-            <Route path="/apply" element={<Apply />} />
-            <Route exact path="/tracks" element={<Tracks />} />
-            <Route exact path="/prizes" element={<Prizes />} />
-            <Route path="/schedule" element={<Schedule />} />
-            <Route path="/faq" element={<Faq />} />
-            <Route path="/speakers" element={<Speakers />} />
-            <Route path="/sponsors" element={<Sponsors />} />
-          </Routes>
-        </Router>
-      </div>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/apply" element={<Apply />} />
+          <Route exact path="/tracks" element={<Tracks />} />
+          <Route exact path="/prizes" element={<Prizes />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/speakers" element={<Speakers />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
