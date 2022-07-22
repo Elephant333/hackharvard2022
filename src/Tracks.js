@@ -1,8 +1,11 @@
 import React from 'react';
+import Navigator from './Navigator';
 
 function Tracks() {
   return (
     <div className="App">
+      <Navigator />
+
       <header className="App-header">
         <img className="App-logo" alt="logo" />
         <p>
