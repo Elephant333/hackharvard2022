@@ -1,0 +1,45 @@
+/* By default, the base font size on the Web is 16px. */
+
+.main {
+  background-color: #141623;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.titleText {
+  position: absolute;
+  width: 1325px;
+  height: 126px;
+  left: 66px;
+  top: 142px;
+
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 140px;
+  line-height: 90.2%;
+  /* or 126px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #EE4C4C;
+}
+
+.speakersLines {
+  position: absolute;
+  width: 575px;
+  height: 292px;
+  left: -32px;
+  top: 342px;
+}
+
+.speakersAngles {
+  position: relative;
+  width: 1170px;
+  height: 635px;
+  float: right;
+  top: 278px;
+}
