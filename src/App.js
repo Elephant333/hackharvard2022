@@ -15,6 +15,7 @@ import Sponsors from './Sponsors';
 import Home from './Home';
 import Apply from './Apply';
 import Prizes from './Prizes';
+import Navigator from './Navigator';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       }}
     >
       <Router>
+        <Navigator />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/welcome" element={<Welcome />} />
