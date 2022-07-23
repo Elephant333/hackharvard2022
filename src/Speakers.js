@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Speakers.module.css';
-import speakersLines from './images/speakers-lines.png';
-import speakersAngles from './images/speakers-angles.png';
+import speakersLines from './assets/images/speakers-lines.png';
+import speakersAngles from './assets/images/speakers-angles.png';
 import Navigator from './Navigator';
 
 function Speakers() {
@@ -9,7 +9,11 @@ function Speakers() {
     <main className={styles.main}>
       <Navigator />
       <head>
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+        <link
+          href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+          rel="stylesheet"
+          id="bootstrap-css"
+        />
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js" />
         <script src="//code.jquery.com/jquery-1.11.1.min.js" />
       </head>
