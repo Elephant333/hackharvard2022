@@ -2,12 +2,10 @@ import React from 'react';
 import styles from './Speakers.module.css';
 import speakersLines from './assets/images/speakers-lines.png';
 import speakersAngles from './assets/images/speakers-angles.png';
-import Navigator from './Navigator';
 
 function Speakers() {
   return (
     <main className={styles.main}>
-      <Navigator />
       <head>
         <link
           href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"

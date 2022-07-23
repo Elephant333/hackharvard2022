@@ -1,12 +1,10 @@
 import React from 'react';
 import styles from './Home.module.css';
 import headImage from './assets/images/home-head.png';
-import Navigator from './Navigator';
 
 function Home() {
   return (
     <main className={styles.main}>
-      <Navigator />
       <div className={styles.headImageContainer}>
         <img className={styles.headImage} src={headImage} alt="" />
       </div>
