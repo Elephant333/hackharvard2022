@@ -52,7 +52,7 @@
 
 .titleContainer {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 5vw;
   height: 100% !important;
 }
