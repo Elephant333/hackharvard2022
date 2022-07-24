@@ -7,7 +7,7 @@ body {
   font-family: 'Exo';
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/fonts/Exo/Exo-Regular.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-Regular.woff) format('woff');
   font-display: swap;
 }
 
@@ -15,7 +15,7 @@ body {
   font-family: 'Exo';
   font-weight: 400;
   font-style: italic;
-  src: url(./assets/fonts/Exo/Exo-Italic.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-Italic.woff) format('woff');
   font-display: swap;
 }
 
@@ -23,7 +23,7 @@ body {
   font-family: 'Exo';
   font-weight: 700;
   font-style: normal;
-  src: url(./assets/fonts/Exo/Exo-Bold.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-Bold.woff) format('woff');
   font-display: swap;
 }
 
@@ -31,7 +31,7 @@ body {
   font-family: 'Exo';
   font-weight: 700;
   font-style: italic;
-  src: url(./assets/fonts/Exo/Exo-BoldItalic.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-BoldItalic.woff) format('woff');
   font-display: swap;
 }
 
@@ -39,7 +39,7 @@ body {
   font-family: 'Exo';
   font-weight: 300;
   font-style: normal;
-  src: url(./assets/fonts/Exo/Exo-Light.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-Light.woff) format('woff');
   font-display: swap;
 }
 
@@ -47,7 +47,7 @@ body {
   font-family: 'Exo';
   font-weight: 300;
   font-style: italic;
-  src: url(./assets/fonts/Exo/Exo-LightItalic.woff) format('woff');
+  src: url(../assets/fonts/Exo/Exo-LightItalic.woff) format('woff');
   font-display: swap;
 }
 
@@ -55,6 +55,6 @@ body {
   font-family: 'Zig';
   font-weight: 400;
   font-style: normal;
-  src: url(./assets/fonts/Zig/Zig-Regular.woff) format('woff');
+  src: url(../assets/fonts/Zig/Zig-Regular.woff) format('woff');
   font-display: swap;
 }
