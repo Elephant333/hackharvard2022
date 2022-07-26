@@ -51,9 +51,16 @@ index.css initializes all the fonts, so no need to do here */
   -webkit-transform:rotateY(0deg);
 }
 
+/* hardcoded (for now), need to find a better solution */
+.front {
+  line-height: 36rem;
+}
+
 .back {
   color: white;
+  font-size: 1.5rem;
   transform: rotateY(180deg);
+  line-height: 2rem;
 }
 
 .education {
