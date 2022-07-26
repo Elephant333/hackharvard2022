@@ -20,12 +20,21 @@ function Tracks() {
           <div className={styles.front}>
             ENTERTAINMENT
           </div>
-          <div className={styles.front}>
-            BBB
+          <div className={styles.back}>
+            The description for the entertainment track would go here
           </div>
         </div>
       </div>
-      <div className={styles.lifehack}>LIFEHACK</div>
+      <div className={styles.lifehack}>
+        <div className={styles.trackContainer}>
+          <div className={styles.front}>
+            LIFEHACK
+          </div>
+          <div className={styles.back}>
+            The description for the lifehack track. Woho!
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
