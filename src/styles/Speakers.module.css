@@ -49,7 +49,14 @@ index.css initializes all the fonts, so no need to do here */
 
 .speakerCarousel {
   position: absolute;
-  width: 40%;
-  left: 30%;
-  top: 30%;
+  width: 70%;
+  left: 15%;
+  top: 35%;
+}
+
+.speakerImage {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #FFFFFF;
 }
