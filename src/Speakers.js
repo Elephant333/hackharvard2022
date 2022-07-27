@@ -50,7 +50,7 @@ function Speakers() {
             },
             mobile: {
               breakpoint: {
-                max: 464,
+                max: 800,
                 min: 0,
               },
               items: 1,
@@ -59,7 +59,7 @@ function Speakers() {
             tablet: {
               breakpoint: {
                 max: 1024,
-                min: 464,
+                min: 801,
               },
               items: 2,
               partialVisibilityGutter: 30,
@@ -74,12 +74,13 @@ function Speakers() {
           slidesToSlide={1}
           swipeable
         >
-          <div>
+          <div className={styles.speakerCard}>
             <img
               src={img1}
               alt="First slide"
               className={styles.speakerImage}
             />
+            <p className={styles.speakerName}>SPEAKER 1</p>
           </div>
           <div>
             <img
@@ -87,6 +88,7 @@ function Speakers() {
               alt="Second slide"
               className={styles.speakerImage}
             />
+            <p className={styles.speakerName}>SPEAKER 2</p>
           </div>
           <div>
             <img
@@ -94,6 +96,7 @@ function Speakers() {
               alt="Third slide"
               className={styles.speakerImage}
             />
+            <p className={styles.speakerName}>SPEAKER 3</p>
           </div>
           <div>
             <img
@@ -101,6 +104,7 @@ function Speakers() {
               alt="Fourth slide"
               className={styles.speakerImage}
             />
+            <p className={styles.speakerName}>SPEAKER 4</p>
           </div>
         </Carousel>
       </div>
