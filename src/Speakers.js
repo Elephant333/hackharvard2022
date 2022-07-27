@@ -8,10 +8,10 @@ import img1 from './assets/images/1.jpg';
 import img2 from './assets/images/2.jpg';
 import img3 from './assets/images/3.jpg';
 import img4 from './assets/images/4.jpg';
-// import img5 from './assets/images/5.jpg';
-// import img6 from './assets/images/6.jpg';
-// import img7 from './assets/images/7.jpg';
-// import img8 from './assets/images/8.jpg';
+import img5 from './assets/images/5.jpg';
+import img6 from './assets/images/6.jpg';
+import img7 from './assets/images/7.jpg';
+import img8 from './assets/images/8.jpg';
 
 function Speakers() {
   return (
@@ -105,6 +105,38 @@ function Speakers() {
               className={styles.speakerImage}
             />
             <p className={styles.speakerName}>SPEAKER 4</p>
+          </div>
+          <div className={styles.speakerCard}>
+            <img
+              src={img5}
+              alt="Fifth slide"
+              className={styles.speakerImage}
+            />
+            <p className={styles.speakerName}>SPEAKER 5</p>
+          </div>
+          <div>
+            <img
+              src={img6}
+              alt="Sixth slide"
+              className={styles.speakerImage}
+            />
+            <p className={styles.speakerName}>SPEAKER 6</p>
+          </div>
+          <div>
+            <img
+              src={img7}
+              alt="Seventh slide"
+              className={styles.speakerImage}
+            />
+            <p className={styles.speakerName}>SPEAKER 7</p>
+          </div>
+          <div>
+            <img
+              src={img8}
+              alt="Eigth slide"
+              className={styles.speakerImage}
+            />
+            <p className={styles.speakerName}>SPEAKER 8</p>
           </div>
         </Carousel>
       </div>
