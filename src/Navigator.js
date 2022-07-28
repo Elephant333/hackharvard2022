@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigator() {
   return (
-    <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+    <Navbar sticky="top" bg="dark" variant="dark" expand="lg" style={{ fontFamily: 'zig' }}>
       <Container>
         <Navbar.Brand href="#home">HackHarvard</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
