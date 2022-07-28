@@ -1,26 +1,18 @@
 import React from 'react';
+import styles from './styles/Sponsors.module.css';
 
 function Sponsors() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.main}>
+      <h1 className={styles.titleText}>SPONSORS</h1>
+      <div className={styles.sponsorsBox}>
+        Coming soon...
+      </div>
+      <p className={styles.sponsorsBottom}>
+        If you would like to sponsor this event, please reach out
+        to us at sponsors@hackharvard.io!
+      </p>
+    </main>
   );
 }
 
