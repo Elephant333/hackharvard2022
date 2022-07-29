@@ -13,11 +13,10 @@ index.css initializes all the fonts, so no need to do here */
 }
 
 .titleText {
-  position: absolute;
-  width: 100%;
+  position: relative;
   height: 126px;
   top: 142px;
-  left: 15%;
+  right: 15%;
   font-family: 'Exo';
   font-style: normal;
   font-weight: 900;
@@ -26,7 +25,7 @@ index.css initializes all the fonts, so no need to do here */
   /* or 126px */
 
   display: flex;
-  justify-content: center;
+  float: right;
 
   color: #ee4c4c;
 }
