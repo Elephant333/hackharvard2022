@@ -7,11 +7,20 @@ function Apply() {
       <div className={styles.header}>
         APPLICATIONS
       </div>
-      <div className={styles.applyMovingText}>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY HERE!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY HERE!</h2>
+      <div className={styles.applyTextWrap}>
+        <div className={styles.applyMovingText}>
+          <h2>
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp;  &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
+          </h2>
+        </div>
       </div>
       <button className={styles.applyButton} type="submit">APPLY</button>
       <div className={styles.deadlines}>
