@@ -15,10 +15,10 @@
 }
 
 .applyMovingText {
-    width : 10000vw;
+    width : 100vw;
     display: flex;
     justify-content: center;
-    animation: apply 1500s linear infinite;
+    animation: apply 10s linear infinite;
     border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
     order: 1;

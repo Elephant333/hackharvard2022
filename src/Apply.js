@@ -9,61 +9,9 @@ function Apply() {
       </div>
       <div className={styles.applyMovingText}>
         <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
+        <h2>APPLY HERE!</h2>
         <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
-        <h2>APPLICATIONS ARE OPEN!</h2>
-        <h2>APPLY NOW!</h2>
+        <h2>APPLY HERE!</h2>
       </div>
       <button className={styles.applyButton} type="submit">APPLY</button>
       <div className={styles.deadlines}>
