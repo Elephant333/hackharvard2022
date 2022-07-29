@@ -23,13 +23,7 @@
 .applyMovingText {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     animation: apply 25s linear infinite;
-=======
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
-    order: 1;
->>>>>>> e56b915632c33b72eafb2917830e7f0a308453ba
     margin: 0px;
   }
 
