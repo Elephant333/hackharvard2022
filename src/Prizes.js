@@ -1,26 +1,21 @@
 import React from 'react';
+import styles from './styles/Prizes.module.css';
 
 function Prizes() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.main}>
+      <h className={styles.titleText}>TRACKS &amp; PRIZES</h>
+      <div className={styles.prizeBox}>
+        {/* eslint-disable max-len */}
+        <div className={styles.prizeTitle}>
+          What are tracks?
+        </div>
+        <div className={styles.prizeDescription}>
+          Tracks are areas of focus that you may choose to hack in. If you submit your project to a track, you are eligible to win the track-specific prize.
+        </div>
+        {/* eslint-enable max-len */}
+      </div>
+    </main>
   );
 }
 

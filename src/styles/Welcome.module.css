@@ -1,12 +1,19 @@
-.welcome-text {
+.main {
+    min-height: 100vh;
+    background-image: url("../assets/images/welcomeBackground.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeText {
     position: relative;
     font-family: 'zig';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
 
-}
-.welcome-text-on-image {
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    bottom: 15%;
-
+    width: 50%;
+    color: #3BF37A;
 }

@@ -1,10 +1,10 @@
 /* By default, the base font size on the Web is 16px. */
 /* I commented out the font-face here;
 index.css initializes all the fonts, so no need to do here */
-/* @font-face {
-    font-family: Exo;
-    src: url(./assets/fonts/Exo/Exo-Bold.woff);
-  } */
+@font-face {
+    font-family: Lato;
+    src: url(../assets/fonts/Lato/Lato-Regular.ttf);
+  }
 
 .main {
   background-color: #141623;
