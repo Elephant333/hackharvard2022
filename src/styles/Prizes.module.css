@@ -1,0 +1,25 @@
+.main{
+    min-height: 100vh;
+    background: url(../assets/images/prizesbg.png);
+    background-color: #141623;
+}
+.titleText {
+    position: absolute;
+    width: 1325px;
+    height: 252px;
+    left: 71px;
+    top: 146px;
+    
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 90.2%;
+    /* or 126px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EE4C4C;
+    
+  }
