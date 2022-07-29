@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Home.module.css';
+import styles from './styles/Home.module.css';
 import headImage from './assets/images/home-head.png';
 
 function Home() {

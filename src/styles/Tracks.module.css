@@ -1,0 +1,139 @@
+/* By default, the base font size on the Web is 16px. */
+/* I commented out the font-face here;
+index.css initializes all the fonts, so no need to do here */
+/* @font-face {
+    font-family: Exo;
+    src: url(./assets/fonts/Exo/Exo-Bold.woff);
+  } */
+
+.main {
+  background-color: #141623;
+  color: #ffffff;
+  min-height: 150vh;
+}
+
+.titleText {
+  position: absolute;
+  width: 100%;
+  height: 126px;
+  top: 142px;
+  left: 15%;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 140px;
+  line-height: 90.2%;
+  /* or 126px */
+
+  display: flex;
+  justify-content: center;
+
+  color: #ee4c4c;
+}
+
+.trackContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform:rotateY(0deg);
+}
+
+/* hardcoded (for now), need to find a better solution */
+.front {
+  line-height: 36rem;
+}
+
+.back {
+  color: white;
+  font-size: 1.5rem;
+  transform: rotateY(180deg);
+  line-height: 2rem;
+}
+
+.education {
+  position: absolute;
+  width: 573px;
+  height: 573px;
+  left: 17%;
+  top: 241px;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 90%;
+  perspective: 1000px;
+}
+
+.education .front {
+  background: url('../assets/images/educationBackground.png');
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.education:hover .trackContainer {
+  transform: rotateY(180deg);
+}
+
+.entertainment {
+  position: absolute;
+  width: 573px;
+  height: 573px;
+  right: 20%;
+  top: 507px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 90%;
+}
+
+.entertainment .front {
+  background: url('../assets/images/entertainmentBackground.png');
+  backface-visibility: hidden;
+}
+
+.entertainment:hover .trackContainer {
+  transform: rotateY(180deg);
+}
+
+.lifehack {
+  position: absolute;
+  width: 573px;
+  height: 573px;
+  left: 17%;
+  top: 869px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 90%;
+}
+
+.lifehack .front {
+  background: url('../assets/images/lifehackBackground.png');
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.lifehack:hover .trackContainer {
+  transform: rotateY(180deg);
+}

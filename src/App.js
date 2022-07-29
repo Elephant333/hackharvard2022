@@ -1,11 +1,4 @@
-import './App.css';
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom';
 import Welcome from './Welcome';
 import Tracks from './Tracks';
 import Schedule from './Schedule';
@@ -24,21 +17,35 @@ function App() {
         minHeight: '100vh',
       }}
     >
-      <Router>
-        <Navigator />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/welcome" element={<Welcome />} />
-          <Route path="/apply" element={<Apply />} />
-          <Route exact path="/tracks" element={<Tracks />} />
-          <Route exact path="/prizes" element={<Prizes />} />
-          <Route path="/schedule" element={<Schedule />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/speakers" element={<Speakers />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </Router>
+
+      <Navigator />
+      <div id="home" style={{ position: 'relative' }}>
+        <Home />
+      </div>
+      <div id="welcome" style={{ position: 'relative' }}>
+        <Welcome />
+      </div>
+      <div id="apply" style={{ position: 'relative' }}>
+        <Apply />
+      </div>
+      <div id="tracks" style={{ position: 'relative' }}>
+        <Tracks />
+      </div>
+      <div id="prizes" style={{ position: 'relative' }}>
+        <Prizes />
+      </div>
+      <div id="schedule" style={{ position: 'relative' }}>
+        <Schedule />
+      </div>
+      <div id="faq" style={{ position: 'relative' }}>
+        <Faq />
+      </div>
+      <div id="speakers" style={{ position: 'relative' }}>
+        <Speakers />
+      </div>
+      <div id="sponsors" style={{ position: 'relative' }}>
+        <Sponsors />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,123 @@
+/* By default, the base font size on the Web is 16px. */
+/* I commented out the font-face here;
+index.css initializes all the fonts, so no need to do here */
+/* @font-face {
+    font-family: Exo;
+    src: url(./assets/fonts/Exo/Exo-Bold.woff);
+  } */
+
+.main {
+  background-color: #141623;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.titleText {
+  position: absolute;
+  width: 100%;
+  height: 126px;
+  top: 13%;
+
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 90.2%;
+  /* or 126px */
+
+  display: flex;
+  justify-content: center;
+
+  color: #ee4c4c;
+}
+@media only screen and (min-width: 901px) {
+  .titleText{
+    font-size: 140px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .titleText{
+    font-size: 70px;
+  }
+}
+
+.speakersLines {
+  position: absolute;
+  width: 575px;
+  height: 292px;
+  left: -32px;
+  top: 342px;
+}
+
+.speakersAngles {
+  position: relative;
+  width: 1170px;
+  height: 635px;
+  float: right;
+  top: 278px;
+}
+
+.speakerCarousel {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top: 30%;
+}
+
+.speakerImage {
+  width: 90%;
+  object-fit: cover;
+  border: 3px solid #FFFFFF;
+  transition: .5s ease;
+}
+
+.speakerOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #141623;
+  border: 3px solid #FFFFFF;
+}
+
+.speakerOverlay:hover {
+  opacity: 1;
+}
+
+.speakerText {
+  color: white;
+  font-size: 22px;
+  font-family: 'Zig';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.speakerName {
+  width: 90%;
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 900;
+}
+@media only screen and (min-width: 1424px) {
+  .speakerName{
+    font-size: 67px;
+  }
+}
+@media only screen and (max-width: 1423px) and (min-width: 801px) {
+  .speakerName{
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .speakerName{
+    font-size: 35px;
+  }
+}
