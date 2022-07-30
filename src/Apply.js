@@ -1,4 +1,5 @@
 import React from 'react';
+import Marquee from 'react-fast-marquee';
 import styles from './styles/Apply.module.css';
 
 function Apply() {
@@ -7,21 +8,17 @@ function Apply() {
       <div className={styles.header}>
         APPLICATIONS
       </div>
-      <div className={styles.applyTextWrap}>
+      <Marquee
+        speed={100}
+        gradientWidth={150}
+      >
         <div className={styles.applyMovingText}>
-          <h2>
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp;  &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-            APPLICATIONS ARE OPEN! &nbsp; &nbsp; APPLY NOW! &nbsp; &nbsp;
-          </h2>
+          <h2>APPLICATIONS ARE OPEN!</h2>
+          <h2>APPLY HERE!</h2>
+          <h2>APPLICATIONS ARE OPEN!</h2>
+          <h2>APPLY HERE!</h2>
         </div>
-      </div>
+      </Marquee>
 
       <button className={styles.applyButton} type="submit">APPLY</button>
       <div className={styles.deadlines}>
