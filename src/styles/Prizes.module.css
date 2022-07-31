@@ -28,7 +28,7 @@
 .prizeBox {
     box-sizing: border-box;
 
-    width: 918px;
+    width: 50%;
     min-height: 50vh;
     margin-top: 50px;
     margin-bottom: 20px;
