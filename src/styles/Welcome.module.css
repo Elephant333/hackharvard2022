@@ -1,19 +1,38 @@
 .main {
     min-height: 100vh;
     background-image: url("../assets/images/welcomeBackground.png");
-    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (min-width: 1441px) {
+    .main {
+        background-size: 100% 100%; 
+    }
+    .welcomeText {
+        font-size: 27px;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .main {
+        background-size: cover;
+        background-position: center;
+    }
+    .welcomeText {
+        font-size: 20px;
+        width: 75%;
+    }
 }
 
 .welcomeText {
     position: relative;
     font-family: 'zig';
     font-weight: 400;
-    font-size: 27px;
     line-height: 27px;
 
-    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
     color: #3BF37A;
 }
