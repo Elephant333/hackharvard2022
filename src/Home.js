@@ -54,8 +54,15 @@ function Home() {
         <img className={styles.headImage} src={headImage} alt="" />
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>
-            <span>HackHarvard</span>
-            <span>2022</span>
+            <div id={styles.largeView}>
+              <span>HackHarvard</span>
+              <span>2022</span>
+            </div>
+            <div id={styles.smallView}>
+              <span>Hack</span>
+              <span>Haarvard</span>
+              <span>2022</span>
+            </div>
           </h1>
           <div className={styles.countdown}>
             {timerComponents.length ? timerComponents : <span>Time to Hack!</span>}

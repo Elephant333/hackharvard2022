@@ -10,8 +10,56 @@
   grid-template-columns: 1fr 1fr;
 }
 
+@media only screen and (min-width: 901px) {
+  .titleContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 12vw;
+    height: 100% !important;
+  }
+
+  .title #smallView {
+    visibility: hidden;
+  }
+
+  .title #largeView {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .headImage {
+    position: absolute;
+    left: -100px;
+  }
+
+  .titleContainer {
+    position: absolute;
+    right: 0;
+    margin-right: 0px;
+    width: 50vw;
+  }
+
+  .title #largeView {
+    visibility: hidden;
+  }
+
+  .title #smallView {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 8vw;
+  }
+
+}
+
 .headImage {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 70%;
   animation: bobble 2s infinite;
   z-index: 10;
 }
@@ -26,6 +74,29 @@
   100% {
     transform: rotate(0deg);
   }
+}
+
+.title {
+  margin-top: 12vh;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  text-shadow: 0 0 10px #808ed0;
+  filter: drop-shadow(0 4px 3px rgb(255 119 160 / 0.3))
+    drop-shadow(0 2px 2px rgb(255 119 160 / 0.26));
+  text-transform: uppercase;
+}
+
+.countdown {
+  font-family: 'Zig';
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 60px;
+  text-align: center;
+
+  margin-top: 6vh;
+  
+  color: #FFFFFF;
 }
 
 .stripes {
@@ -43,38 +114,6 @@
   background-color: #ffffff;
   margin-top: 3rem;
   opacity: 0.4;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 12vh;
-  font-size: 5vw;
-  font-weight: 700;
-  letter-spacing: 0.025em;
-  color: #ffffff;
-  text-shadow: 0 0 10px #808ed0;
-  filter: drop-shadow(0 4px 3px rgb(255 119 160 / 0.3))
-    drop-shadow(0 2px 2px rgb(255 119 160 / 0.26));
-  text-transform: uppercase;
-}
-
-.titleContainer {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin-right: 12vw;
-  height: 100% !important;
-}
-
-.countdown {
-  font-family: 'Zig';
-  font-weight: 400;
-  font-size: 3vw;
-  line-height: 60px;
-  text-align: center;
-  
-  color: #FFFFFF;
 }
 
 .banner {
