@@ -33,7 +33,7 @@
   }
 }
 
-.sponsorsBox {
+.scheduleBox {
   box-sizing: border-box;
 
   width: 60%;
@@ -49,30 +49,4 @@
   text-align: center;
   
   border: 5px solid #FFFFFF;
-}
-
-.sponsorsBottom {
-  width: 100%;
-  margin-top: 40px;
-  
-  font-family: 'Lato';
-  font-weight: 900;
-  line-height: 90.2%;
-  /* or 32px */
-
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  
-  color: #FFFFFF;
-}
-@media only screen and (min-width: 901px) {
-  .sponsorsBottom{
-    font-size: 36px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .sponsorsBottom{
-    font-size: 20px;
-  }
 }
