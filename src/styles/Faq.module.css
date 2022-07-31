@@ -23,7 +23,7 @@
         ". GeneralInfo"
         "Num Header"
         ". LogisticsInfo"
-        ". ."
+        ". .";
 }
 
 .gridDivs {
@@ -107,10 +107,20 @@
     padding-left: 20px;
 }
 
+#TeamsInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 #TeamsInfo .teamsText {
     margin-top: 20px;
     margin-left: 20px;
-    width: 50%;
+}
+
+#TeamsInfo .teamPic {
+    margin-top: auto;
+    width: 90%;
 }
 
 #GeneralInfo .generalText {
@@ -118,9 +128,20 @@
     margin-left: 20px;
 }
 
+#LogisticsInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 #LogisticsInfo .logisticsText {
     margin-top: 20px;
     margin-left: 20px;
+}
+
+#LogisticsInfo .statue {
+    margin-top: auto;
+    width: 80%;
 }
 
 #footer {

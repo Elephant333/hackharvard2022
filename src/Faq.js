@@ -28,7 +28,7 @@ function Faq() {
             <p className={styles.question}>How do teams work?</p>
             <p className={styles.answer}>Each team consists of a maximum of four members. You can create a team and designate teammates during registration, or you can register as an individual. All teammates must submit individual applications. Admission decisions will be all-or-none, so either all of your teammates will receive admission or none of your teammates will receive admission.</p>
           </p>
-          <img src={teamPic} alt="Team" />
+          <img src={teamPic} alt="Team" className={styles.teamPic} />
         </div>
         <div className={styles.gridDivs} id={styles.Num}>
           <p>2</p>
@@ -63,7 +63,7 @@ function Faq() {
             <p className={styles.question}>How does an in-person hackathon work?</p>
             <p className={styles.answer}>Located at Harvard’s Student Organization Center at Hilles (SOCH), HackHarvard will provide food for all meals from Friday’s dinner to Sunda’s breakfast. We will try our best to accommodate all dietary restrictions. Hackers will also be permitted to sleep in the SOCH.</p>
           </p>
-          <img src={statue} alt="Statue" />
+          <img src={statue} alt="Statue" className={styles.statue} />
         </div>
         <div className={styles.gridDivs} />
         <div className={styles.gridDivs} id={styles.footer} />
