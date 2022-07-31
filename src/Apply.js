@@ -25,12 +25,12 @@ function Apply() {
         <div>
           <h2>ROUND 1</h2>
           <span>DEADLINE</span>
-          <h1>AUG. 29TH</h1>
+          <h1>SEP. 4TH</h1>
         </div>
         <div>
           <h2>ROUND 2</h2>
           <span>DEADLINE</span>
-          <h1>SEPT. 19TH</h1>
+          <h1>SEPT. 28TH</h1>
         </div>
       </div>
     </div>
