@@ -1,15 +1,9 @@
 /* By default, the base font size on the Web is 16px. */
-/* I commented out the font-face here;
-index.css initializes all the fonts, so no need to do here */
-/* @font-face {
-    font-family: Exo;
-    src: url(./assets/fonts/Exo/Exo-Bold.woff);
-  } */
 
 .main {
   background-color: #141623;
   color: #ffffff;
-  min-height: 150vh;
+  min-height: 160vh;
 }
 
 .titleText {
@@ -82,6 +76,18 @@ index.css initializes all the fonts, so no need to do here */
   backface-visibility: hidden;
 }
 
+.education .back {
+  padding-top: 25%;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Lato';
+  font-size: 20px;
+
+  background: #C0003A;
+  border-radius: 50%;
+}
+
 .education:hover .trackContainer {
   transform: rotateY(180deg);
 }
@@ -105,6 +111,18 @@ index.css initializes all the fonts, so no need to do here */
 .entertainment .front {
   background: url('../assets/images/entertainmentBackground.png');
   backface-visibility: hidden;
+}
+
+.entertainment .back {
+  padding-top: 25%;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Lato';
+  font-size: 20px;
+
+  background: #C0003A;
+  border-radius: 50%;
 }
 
 .entertainment:hover .trackContainer {
@@ -131,6 +149,18 @@ index.css initializes all the fonts, so no need to do here */
   background: url('../assets/images/lifehackBackground.png');
   text-align: center;
   backface-visibility: hidden;
+}
+
+.lifehack .back {
+  padding-top: 20%;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Lato';
+  font-size: 20px;
+
+  background: #C0003A;
+  border-radius: 50%;
 }
 
 .lifehack:hover .trackContainer {
