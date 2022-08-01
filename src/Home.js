@@ -60,7 +60,7 @@ function Home() {
             </div>
             <div id={styles.smallView}>
               <span>Hack</span>
-              <span>Haarvard</span>
+              <span>Harvard</span>
               <span>2022</span>
             </div>
           </h1>
