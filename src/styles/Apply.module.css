@@ -96,11 +96,16 @@
 @media only screen and (max-width: 1423px) and (min-width: 801px) {
     .deadlines {
         width : 75vw   
+    }
 }
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 6rem;
+    }
 }
 @media only screen and (max-width: 800px) {
     .deadlines {
-        width : 65vw;
+        width : 60vw;
         flex-direction: column;
     }
     .deadlines div{
