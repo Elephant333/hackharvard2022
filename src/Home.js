@@ -58,6 +58,7 @@ function Home() {
               <span>HackHarvard</span>
               <span>2022</span>
             </div>
+            <div className={styles.date}>October 14-16</div>
             <div id={styles.smallView}>
               <span>Hack</span>
               <span>Harvard</span>
@@ -67,12 +68,16 @@ function Home() {
           <div className={styles.countdown}>
             {timerComponents.length ? timerComponents : <span>Time to Hack!</span>}
           </div>
+          <div className={styles.date} id={styles.smallDate}>October 14-16</div>
         </div>
       </div>
       <div className={styles.stripes}>
         <span />
         <span />
         <span />
+      </div>
+      <div className={styles.countdown} id={styles.smallCount}>
+        {timerComponents.length ? timerComponents : <span>Time to Hack!</span>}
       </div>
       <Marquee
         speed={100}
