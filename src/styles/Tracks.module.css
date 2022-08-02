@@ -1,26 +1,138 @@
 /* By default, the base font size on the Web is 16px. */
 
-.main {
-  background-color: #141623;
-  color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+@media only screen and (min-width: 1301px) {
+  .main {
+    background-color: #141623;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .titleText {
+    font-family: 'Exo';
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 90.2%;
+    /* or 126px */
+  
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+    color: #ee4c4c;
+  }
+
+  .education {
+    width: 575px;
+    height: 575px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    perspective: 1000px;
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .entertainment {
+    width: 573px;
+    height: 573px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 90%;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
+
+  .lifehack {
+    width: 573px;
+    height: 573px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
 }
 
-.titleText {
-  font-family: 'Exo';
-  font-weight: 900;
-  font-size: 140px;
-  line-height: 90.2%;
-  /* or 126px */
+@media only screen and (max-width: 1300px) {
+  .main {
+    background-color: #141623;
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: min-content repeat(3, 1fr);
+  }
 
-  margin-left: auto;
-  margin-right: 5vw;
-  margin-top: auto;
-  margin-bottom: auto;
+  .education {
+    width: 575px;
+    height: 575px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
 
-  color: #ee4c4c;
+  .entertainment {
+    width: 573px;
+    height: 573px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
+
+  .lifehack {
+    width: 573px;
+    height: 573px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
+
+  .titleText {
+    font-family: 'Exo';
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 90.2%;
+    /* or 126px */
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  
+    color: #ee4c4c;
+  }
 }
 
 .trackContainer {
@@ -52,25 +164,11 @@
   line-height: 2rem;
 }
 
-.education {
-  width: 575px;
-  height: 575px;
-  font-family: 'Exo';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 5rem;
-  line-height: 90%;
-  perspective: 1000px;
-  margin-left: 5vw;
-  margin-right: auto;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
 .education .front {
   background: url('../assets/images/educationBackground.png');
   text-align: center;
   backface-visibility: hidden;
+  background-size: contain;
 }
 
 .education .back {
@@ -87,20 +185,6 @@
 
 .education:hover .trackContainer {
   transform: rotateY(180deg);
-}
-
-.entertainment {
-  width: 573px;
-  height: 573px;
-  font-family: 'Exo';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 4rem;
-  line-height: 90%;
-  margin-left: auto;
-  margin-right: 5vw;
-  margin-top: 0vh;
-  margin-bottom: 10vh;
 }
 
 .entertainment .front {
@@ -122,20 +206,6 @@
 
 .entertainment:hover .trackContainer {
   transform: rotateY(180deg);
-}
-
-.lifehack {
-  width: 573px;
-  height: 573px;
-  font-family: 'Exo';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 5rem;
-  line-height: 90%;
-  margin-left: 5vw;
-  margin-right: auto;
-  margin-top: 0vh;
-  margin-bottom: 10vh;
 }
 
 .lifehack .front {
