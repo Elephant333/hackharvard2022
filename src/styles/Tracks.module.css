@@ -3,31 +3,27 @@
 .main {
   background-color: #141623;
   color: #ffffff;
-  min-height: 160vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .titleText {
-  position: relative;
-  height: 126px;
-  top: 142px;
-  right: 15%;
   font-family: 'Exo';
-  font-style: normal;
   font-weight: 900;
   font-size: 140px;
   line-height: 90.2%;
   /* or 126px */
 
-  display: flex;
-  float: right;
+  margin-left: auto;
+  margin-right: 5vw;
+  margin-top: auto;
+  margin-bottom: auto;
 
   color: #ee4c4c;
 }
 
 .trackContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -57,17 +53,18 @@
 }
 
 .education {
-  position: absolute;
-  width: 573px;
-  height: 573px;
-  left: 17%;
-  top: 241px;
+  width: 575px;
+  height: 575px;
   font-family: 'Exo';
   font-style: normal;
   font-weight: 900;
   font-size: 5rem;
   line-height: 90%;
   perspective: 1000px;
+  margin-left: 5vw;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .education .front {
@@ -93,19 +90,17 @@
 }
 
 .entertainment {
-  position: absolute;
   width: 573px;
   height: 573px;
-  right: 20%;
-  top: 507px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: 'Exo';
   font-style: normal;
   font-weight: 900;
   font-size: 4rem;
   line-height: 90%;
+  margin-left: auto;
+  margin-right: 5vw;
+  margin-top: 0vh;
+  margin-bottom: 10vh;
 }
 
 .entertainment .front {
@@ -130,19 +125,17 @@
 }
 
 .lifehack {
-  position: absolute;
   width: 573px;
   height: 573px;
-  left: 17%;
-  top: 869px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: 'Exo';
   font-style: normal;
   font-weight: 900;
   font-size: 5rem;
   line-height: 90%;
+  margin-left: 5vw;
+  margin-right: auto;
+  margin-top: 0vh;
+  margin-bottom: 10vh;
 }
 
 .lifehack .front {
