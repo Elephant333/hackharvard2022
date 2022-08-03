@@ -122,12 +122,11 @@
   .titleText {
     font-family: 'Exo';
     font-weight: 900;
-    font-size: 140px;
+    font-size: 100px;
     line-height: 90.2%;
     /* or 126px */
   
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
   
@@ -168,7 +167,7 @@
   background: url('../assets/images/educationBackground.png');
   text-align: center;
   backface-visibility: hidden;
-  background-size: contain;
+  background-size:cover;
 }
 
 .education .back {
@@ -189,7 +188,9 @@
 
 .entertainment .front {
   background: url('../assets/images/entertainmentBackground.png');
+  text-align: center;
   backface-visibility: hidden;
+  background-size:cover;
 }
 
 .entertainment .back {
@@ -212,6 +213,7 @@
   background: url('../assets/images/lifehackBackground.png');
   text-align: center;
   backface-visibility: hidden;
+  background-size:cover;
 }
 
 .lifehack .back {

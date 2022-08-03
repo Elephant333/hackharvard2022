@@ -7,29 +7,187 @@
     flex-direction: column;
 }
 
-.wrapper {
-    margin-top: 4rem;
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-template-rows: fit-content(300px 150px 300px 150px 300px 150px 300px 100px);
-    grid-template-areas: 
-        ". Faqs"
-        "Num Header"
-        ". TeamsInfo"
-        "Num Header"
-        ". GeneralInfo"
-        "Num Header"
-        ". LogisticsInfo"
-        ". .";
-}
-
 .gridDivs {
     outline-color: white;
     outline-width: medium;
     outline-style: solid;
+}
+
+@media only screen and (min-width: 1101px) {
+    .wrapper {
+        margin-top: 4rem;
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        grid-template-rows: fit-content(300px 150px 300px 150px 300px 150px 300px 100px);
+        grid-template-areas: 
+            ". Faqs"
+            "Num Header"
+            ". TeamsInfo"
+            "Num Header"
+            ". GeneralInfo"
+            "Num Header"
+            ". LogisticsInfo"
+            ". .";
+    }
+
+    #Faqs .title {
+        text-align: right;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+    
+    #Faqs .question {
+        text-align: right;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 50px;
+    }
+    
+    #Faqs .answer {
+        text-align: right;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+
+    #Num {
+        visibility: visible;
+    }
+
+    #Header {
+        color: rgb(0, 0, 0);
+        font-size: 90px;
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    #TeamsInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .teamPic#small{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .teamPic#large{
+        margin-top: auto;
+        width: 90%;
+    }
+
+    #LogisticsInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .statue#small {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .statue#large {
+        margin-top: auto;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .wrapper {
+        margin-top: 4rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content(300px 150px 300px 150px 300px 150px 300px 100px);
+        grid-template-areas: 
+            "Faqs"
+            "Header"
+            "TeamsInfo"
+            "Header"
+            "GeneralInfo"
+            "Header"
+            "LogisticsInfo"
+            ".";
+    }
+
+    #Faqs .title {
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #Faqs .question {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #Faqs .answer {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #Num {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #Header {
+        color: rgb(0, 0, 0);
+        font-size: 90px;
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #TeamsInfo {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .teamPic#small{
+        margin-top: auto;
+        width: 90%;
+    }
+
+    .teamPic#large{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    #LogisticsInfo {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .statue#small {
+        margin-top: auto;
+        width: 80%;
+    }
+
+    .statue#large {
+        position: absolute;
+        visibility: hidden;
+    }
 }
 
 .title {
@@ -64,31 +222,6 @@
     color: #ffffff;
 }
 
-#Faqs {
-    justify-content: right;
-}
-
-#Faqs .title {
-    text-align: right;
-    margin-top: 40px;
-    margin-right: 50px;
-}
-
-#Faqs .question {
-    text-align: right;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-right: 50px;
-}
-
-#Faqs .answer {
-    text-align: right;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    margin-right: 50px;
-    margin-left: 20px;
-}
-
 #Num {
     color: rgb(0, 0, 0);
 	font-size: 136px;
@@ -98,50 +231,22 @@
     text-align: center;
 }
 
-#Header {
-    color: rgb(0, 0, 0);
-    font-size: 90px;
-    font-weight: 900;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    padding-top: 50px;
-    padding-left: 20px;
-}
-
-#TeamsInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-}
-
 #TeamsInfo .teamsText {
     margin-top: 20px;
     margin-left: 20px;
-}
-
-#TeamsInfo .teamPic {
-    margin-top: auto;
-    width: 90%;
+    margin-right: 20px;
 }
 
 #GeneralInfo .generalText {
     margin-top: 20px;
     margin-left: 20px;
-}
-
-#LogisticsInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    margin-right: 20px;
 }
 
 #LogisticsInfo .logisticsText {
     margin-top: 20px;
     margin-left: 20px;
-}
-
-#LogisticsInfo .statue {
-    margin-top: auto;
-    width: 80%;
+    margin-right: 20px;
 }
 
 #footer {
