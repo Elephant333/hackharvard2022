@@ -26,7 +26,7 @@ function Welcome() {
             'whether that means hearkening to an early technological age,',
             5000,
             'or booting up an old, forgotten project to give it a new, creative twist.',
-            5000,
+            0,
           ]}
         />
       </p>
