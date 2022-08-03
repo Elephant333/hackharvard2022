@@ -11,11 +11,21 @@ function Welcome() {
         Welcome to HackHarvard 2022!
         <Typical
           loop={Infinity}
-          wrapper="b"
+          wrapper="p"
           steps={[
-            'Join us for the seventh iteration of HackHarvard, a 36-hour free hackathon hosted by Harvard University students. For the first time in three years, we will be returning to a fully in-person hackathon!',
+            'Join us for the seventh iteration of HackHarvard,',
             1000,
-            'This year, our theme is Control, Alt, Create. It’s time to get retro and take inspiration from the past: whether that means hearkening to an early technological age, or booting up an old, forgotten project to give it a new, creative twist.',
+            'a 36-hour free hackathon hosted by Harvard University students.',
+            1000,
+            'For the first time in three years, we will be returning to a fully in-person hackathon!',
+            1000,
+            'This year, our theme is Control, Alt, Create.',
+            1000,
+            'It’s time to get retro and take inspiration from the past:',
+            1000,
+            'whether that means hearkening to an early technological age,',
+            1000,
+            'or booting up an old, forgotten project to give it a new, creative twist.',
             1000,
           ]}
         />
