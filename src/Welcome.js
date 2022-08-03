@@ -6,7 +6,7 @@ function Welcome() {
   return (
     <main className={styles.main}>
       {/* eslint-disable max-len */}
-      <p>
+      <p className={styles.welcomeText}>
         {' '}
         Welcome to HackHarvard 2022!
         <Typical
