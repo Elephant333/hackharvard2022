@@ -30,7 +30,7 @@ function Apply() {
         <div>
           <h2>ROUND 2</h2>
           <span>DEADLINE</span>
-          <h1>SEPT. 28TH</h1>
+          <h1>SEP. 28TH</h1>
         </div>
       </div>
     </div>
