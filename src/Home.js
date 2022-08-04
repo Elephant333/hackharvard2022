@@ -86,9 +86,9 @@ function Home() {
       >
         <div className={styles.applyMovingText}>
           <h2>HACKHARVARD 2022!</h2>
-          <h2>APPLY HERE!</h2>
+          <h2>APPLY ON 8/15!</h2>
           <h2>HACKHARVARD 2022!</h2>
-          <h2>APPLY HERE!</h2>
+          <h2>APPLY ON 8/15!</h2>
         </div>
       </Marquee>
     </main>
