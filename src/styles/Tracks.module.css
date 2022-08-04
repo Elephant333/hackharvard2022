@@ -30,13 +30,21 @@
     font-family: 'Exo';
     font-style: normal;
     font-weight: 900;
-    font-size: 5rem;
     line-height: 90%;
     perspective: 1000px;
     margin-left: 5vw;
     margin-right: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
+  }
+
+  .education .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .education .front {
+    font-size: 5rem;
   }
 
   .entertainment {
@@ -53,6 +61,15 @@
     margin-bottom: 10vh;
   }
 
+  .entertainment .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .entertainment .front {
+    font-size: 4rem;
+  }
+
   .lifehack {
     width: 573px;
     height: 573px;
@@ -65,6 +82,15 @@
     margin-right: auto;
     margin-top: 0vh;
     margin-bottom: 10vh;
+  }
+
+  .lifehack .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .lifehack .front {
+    font-size: 5rem;
   }
 }
 
@@ -91,6 +117,15 @@
     margin-bottom: 10vh;
   }
 
+  .education .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .education .front {
+    font-size: 5rem;
+  }
+
   .entertainment {
     width: 573px;
     height: 573px;
@@ -105,6 +140,15 @@
     margin-bottom: 10vh;
   }
 
+  .entertainment .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .entertainment .front {
+    font-size: 4rem;
+  }
+
   .lifehack {
     width: 573px;
     height: 573px;
@@ -117,6 +161,15 @@
     margin-right: auto;
     margin-top: 0vh;
     margin-bottom: 10vh;
+  }
+
+  .lifehack .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .lifehack .front {
+    font-size: 5rem;
   }
 
   .titleText {
@@ -157,6 +210,15 @@
     margin-bottom: 10vh;
   }
 
+  .education .back {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+
+  .education .front {
+    font-size: 3rem;
+  }
+
   .entertainment {
     width: 90vw;
     height: 90vw;
@@ -171,6 +233,15 @@
     margin-bottom: 10vh;
   }
 
+  .entertainment .back {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+
+  .entertainment .front {
+    font-size: 5rem;
+  }
+
   .lifehack {
     width: 90vw;
     height: 90vw;
@@ -183,6 +254,15 @@
     margin-right: auto;
     margin-top: 0vh;
     margin-bottom: 10vh;
+  }
+
+  .lifehack .back {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+
+  .lifehack .front {
+    font-size: 5rem;
   }
 
   .titleText {
@@ -209,6 +289,10 @@
 }
 
 .front, .back {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -217,16 +301,9 @@
   -webkit-transform:rotateY(0deg);
 }
 
-/* hardcoded (for now), need to find a better solution */
-.front {
-  line-height: 36rem;
-}
-
 .back {
   color: white;
-  font-size: 1.5rem;
   transform: rotateY(180deg);
-  line-height: 2rem;
 }
 
 .education .front {
@@ -237,12 +314,10 @@
 }
 
 .education .back {
-  padding-top: 25%;
   padding-left: 60px;
   padding-right: 60px;
 
   font-family: 'Lato';
-  font-size: 20px;
 
   background: #C0003A;
   border-radius: 50%;
@@ -260,12 +335,10 @@
 }
 
 .entertainment .back {
-  padding-top: 25%;
   padding-left: 60px;
   padding-right: 60px;
 
   font-family: 'Lato';
-  font-size: 20px;
 
   background: #C0003A;
   border-radius: 50%;
@@ -283,12 +356,10 @@
 }
 
 .lifehack .back {
-  padding-top: 20%;
   padding-left: 60px;
   padding-right: 60px;
 
   font-family: 'Lato';
-  font-size: 20px;
 
   background: #C0003A;
   border-radius: 50%;
