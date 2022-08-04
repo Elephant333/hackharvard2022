@@ -9,7 +9,6 @@ index.css initializes all the fonts, so no need to do here */
 .main {
   background-color: #141623;
   color: #ffffff;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,16 +42,15 @@ index.css initializes all the fonts, so no need to do here */
 
 .speakersLines {
   position: absolute;
-  width: 575px;
-  height: 292px;
+  width: 30vw;
   left: -32px;
   top: 35%;
+  overflow: hidden;
 }
 
 .speakersAngles {
   position: absolute;
-  width: 1170px;
-  height: 635px;
+  width: 61vw;
   right: 0px;
   top: 278px;
 }
