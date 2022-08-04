@@ -19,6 +19,7 @@ function App() {
     >
 
       <Navigator />
+      {/* Home stripes also might not be playing nice */}
       <div id="home" style={{ position: 'relative' }}>
         <Home />
       </div>
@@ -28,6 +29,7 @@ function App() {
       <div id="apply" style={{ position: 'relative' }}>
         <Apply />
       </div>
+      {/* tracks isn't playing nice on mobile */}
       <div id="tracks" style={{ position: 'relative' }}>
         <Tracks />
       </div>
@@ -37,6 +39,7 @@ function App() {
       <div id="schedule" style={{ position: 'relative' }}>
         <Schedule />
       </div>
+      {/* faq also isn't playing nice on mobile */}
       <div id="faq" style={{ position: 'relative' }}>
         <Faq />
       </div>

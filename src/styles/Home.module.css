@@ -70,6 +70,11 @@
 }
 /* mobile screen settings */
 @media only screen and (max-width: 900px) {
+  .stripes {
+    visibility: hidden;
+    position: absolute;
+  }
+
   .headImage {
     margin-left: -10vw;
     margin-right: auto;

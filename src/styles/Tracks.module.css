@@ -211,8 +211,8 @@
   }
 
   .education .back {
-    font-size: 16px;
-    line-height: 1.5rem;
+    font-size: 3.7vw;
+    line-height: 4vw;
   }
 
   .education .front {
@@ -234,12 +234,12 @@
   }
 
   .entertainment .back {
-    font-size: 16px;
-    line-height: 1.5rem;
+    font-size: 3.7vw;
+    line-height: 4vw;
   }
 
   .entertainment .front {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 
   .lifehack {
@@ -257,18 +257,18 @@
   }
 
   .lifehack .back {
-    font-size: 16px;
-    line-height: 1.5rem;
+    font-size: 3.7vw;
+    line-height: 4vw;
   }
 
   .lifehack .front {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .titleText {
     font-family: 'Exo';
     font-weight: 900;
-    font-size: 100px;
+    font-size: 70px;
     line-height: 90.2%;
     /* or 126px */
   
