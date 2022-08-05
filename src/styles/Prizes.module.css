@@ -43,7 +43,7 @@
     }
 
     .trophy#large {
-        height: 80%;
+        width: 280px;
         margin-right: -6vw;
         margin-top: auto;
         margin-bottom: auto;
@@ -92,6 +92,7 @@
     }
 
     .trophy#large {
+        width:0px;
         position: absolute;
         visibility: hidden;
     }
