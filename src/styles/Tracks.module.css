@@ -302,8 +302,8 @@
 
 .back {
   color: white;
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
 }
 
 .education .front {
@@ -324,8 +324,8 @@
 }
 
 .education:hover .trackContainer {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
 }
 
 .entertainment .front {
@@ -346,8 +346,8 @@
 }
 
 .entertainment:hover .trackContainer {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
 }
 
 .lifehack .front {
@@ -368,6 +368,6 @@
 }
 
 .lifehack:hover .trackContainer {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
 }
