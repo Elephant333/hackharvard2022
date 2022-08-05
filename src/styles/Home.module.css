@@ -14,6 +14,10 @@
 
 /* large screen settings */
 @media only screen and (min-width: 901px) {
+  .stripes span {
+    width: 100vh;
+  }
+
   .headImage {
     margin-left: auto;
     margin-right: auto;
@@ -75,6 +79,10 @@
     position: absolute;
   }
 
+  .stripes span {
+    width: 0;
+  }
+
   .headImage {
     margin-left: -10vw;
     margin-right: auto;
@@ -90,6 +98,8 @@
   }
 
   .title #largeView {
+    position: absolute;
+    font-size: 0px;
     visibility: hidden;
   }
 
@@ -98,7 +108,7 @@
     flex-direction: column;
     text-align: center;
     font-size: 10vw;
-    margin-top: 3vh;
+    margin-top: 8vh;
   }
 
   .titleContainer .countdown {
@@ -185,7 +195,6 @@
   display: block;
   position: relative;
   height: 0.5rem;
-  width: 100vh;
   background-color: #ffffff;
   margin-top: 3rem;
   opacity: 0.4;

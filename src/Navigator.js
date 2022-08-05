@@ -6,7 +6,7 @@ import styles from './styles/Navigator.module.css';
 
 function Navigator() {
   return (
-    <Navbar sticky="top" bg="dark" variant="dark" expand="lg" style={{ fontFamily: 'zig' }}>
+    <Navbar collapseOnSelect sticky="top" bg="dark" variant="dark" expand="xl" style={{ fontFamily: 'zig' }}>
       <Container>
         <a id="mlh-trust-badge" className={styles.mlhLogo} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer">
           <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg" alt="Major League Hacking 2023 Hackathon Season" />
@@ -15,28 +15,28 @@ function Navigator() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#welcome">
+            <Nav.Link href="#welcome" className="ms-auto">
               Welcome
             </Nav.Link>
-            <Nav.Link href="#apply">
+            <Nav.Link href="#apply" className="ms-auto">
               Apply
             </Nav.Link>
-            <Nav.Link href="#tracks">
+            <Nav.Link href="#tracks" className="ms-auto">
               Tracks
             </Nav.Link>
-            <Nav.Link href="#prizes">
+            <Nav.Link href="#prizes" className="ms-auto">
               Prizes
             </Nav.Link>
-            <Nav.Link href="#schedule">
+            <Nav.Link href="#schedule" className="ms-auto">
               Schedule
             </Nav.Link>
-            <Nav.Link href="#faq">
+            <Nav.Link href="#faq" className="ms-auto">
               FAQ
             </Nav.Link>
-            <Nav.Link href="#speakers">
+            <Nav.Link href="#speakers" className="ms-auto">
               Speakers
             </Nav.Link>
-            <Nav.Link href="#sponsors">
+            <Nav.Link href="#sponsors" className="ms-auto">
               Sponsors
             </Nav.Link>
           </Nav>

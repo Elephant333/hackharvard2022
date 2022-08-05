@@ -173,6 +173,7 @@
     .teamPic#large{
         position: absolute;
         visibility: hidden;
+        width: 0;
     }
 
     #LogisticsInfo {
@@ -189,6 +190,7 @@
     .statue#large {
         position: absolute;
         visibility: hidden;
+        width: 0;
     }
 }
 
