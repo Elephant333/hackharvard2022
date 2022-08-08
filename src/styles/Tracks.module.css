@@ -387,3 +387,20 @@
   -webkit-transform: rotateY(179.9deg);
   transform: rotateY(179.9deg);
 }
+
+
+
+@media only screen and (max-width: 1101px) {
+ .education:active .trackContainer {
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+ }
+ .entertainment:active .trackContainer {
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+ }
+ .lifehack:active .trackContainer {
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+ }
+}
