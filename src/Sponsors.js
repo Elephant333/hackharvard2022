@@ -3,13 +3,16 @@ import {
   FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaGithubSquare,
 } from 'react-icons/fa';
 import styles from './styles/Sponsors.module.css';
+import aneta from './assets/images/anetaBTC_logo_text_white.png';
+import mlh from './assets/images/mlh-logo-color.png';
 
 function Sponsors() {
   return (
     <main className={styles.main}>
       <h1 className={styles.titleText}>SPONSORS</h1>
       <div className={styles.sponsorsBox}>
-        Coming soon...
+        <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
+        <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mlh}><img className={styles.sponsorLogos} src={mlh} alt="MLH" /></a>
       </div>
       <p className={styles.sponsorsBottom}>
         If you would like to sponsor this event, please reach out
