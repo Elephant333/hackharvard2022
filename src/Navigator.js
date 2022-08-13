@@ -12,7 +12,7 @@ function Navigator() {
         <a id="mlh-trust-badge" className={styles.mlhLogo} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer">
           <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg" alt="Major League Hacking 2023 Hackathon Season" />
         </a>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" id={styles.brand}>
           <img className={styles.hhlogo} src={logo} alt="" />
           HackHarvard
         </Navbar.Brand>
