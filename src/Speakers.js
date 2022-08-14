@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import styles from './styles/Speakers.module.css';
 import speakersLines from './assets/images/speakers-lines.png';
 import speakersAngles from './assets/images/speakers-angles.png';
-import img1 from './assets/images/1.jpg';
+import harsen from './assets/images/harsen.png';
 import img2 from './assets/images/2.jpg';
 import img3 from './assets/images/3.jpg';
 import img4 from './assets/images/4.jpg';
@@ -70,14 +70,20 @@ function Speakers() {
           slidesToSlide={1}
           swipeable
         >
+          {/* eslint-disable max-len */}
           <div>
             <div className={styles.speakerContainer}>
-              <img src={img1} alt="First slide" className={styles.speakerImage} />
+              <img src={harsen} alt="Harsen Sidhu" className={styles.speakerImage} />
               <div className={styles.speakerOverlay}>
-                <div className={styles.speakerText}>Speaker description...</div>
+                <div className={styles.speakerText}>
+                  Harsen Sidhu
+                  <br />
+                  <br />
+                  A 2015 graduate from Princeton with a Bachelors in Political Science, Harsen is currently a Product Manager at Clubhouse and has more than 7 years of experience working in technology across Uber, Instagram, and Airbnb. At Clubhouse, an audio first social network focussed on conversations rather than content, he is now working with the founders to define and execute on the future of the company.
+                </div>
               </div>
             </div>
-            <p className={styles.speakerName}>SPEAKER 1</p>
+            <p className={styles.speakerName}>Harsen Sidhu</p>
           </div>
           <div>
             <div className={styles.speakerContainer}>
@@ -106,6 +112,7 @@ function Speakers() {
             </div>
             <p className={styles.speakerName}>SPEAKER 4</p>
           </div>
+          {/* eslint-enable max-len */}
         </Carousel>
       </div>
     </main>

@@ -87,15 +87,31 @@ index.css initializes all the fonts, so no need to do here */
 
 .speakerText {
   color: white;
-  font-size: 22px;
   font-family: 'Zig';
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .speakerText{
+    font-size: 0.94vw;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 801px) {
+  .speakerText{
+    font-size: 1.3vw;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 0px) {
+  .speakerText{
+    font-size: 2.5vw;
+  }
 }
 
 .speakerName {
