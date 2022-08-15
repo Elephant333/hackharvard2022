@@ -36,7 +36,6 @@
 .sponsorsBox {
   box-sizing: border-box;
 
-  height: 500px;
   padding: 20px;
   margin-top: 50px;
 
@@ -60,7 +59,11 @@
   width: 100%;
 }
 
-.sponsorLogos#mlh {
+#scm {
+  width: 50%;
+}
+
+#mlh {
   width: 40%;
 }
 
@@ -87,7 +90,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 
     width: 60%;
     font-size: 64px;
