@@ -33,7 +33,7 @@ function Sponsors() {
             <a id={styles.icon} href="https://github.com/hackharvard/hackharvard.github.io" target="_blank" rel="noreferrer"><FaGithubSquare /></a>
             { /* eslint-enable */ }
           </div>
-          <p id={styles.text}>APPLICATIONS OPEN 8/15!</p>
+          <p id={styles.text}>APPLICATIONS OPEN!</p>
         </div>
         <p id={styles.smallText}>MADE WITH &hearts; FROM HACKHARVARD TEAM</p>
         <a id={styles.smallText} href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noreferrer">MLH CODE OF CONDUCT</a>

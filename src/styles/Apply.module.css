@@ -60,6 +60,12 @@
     cursor: pointer;
     order: 2;
     box-shadow: 0px 10px black;
+    text-decoration: none;
+}
+.applyButton:hover {
+    color: white;
+    box-shadow: 0px 0px black;
+    transform: translateY(10px);
 }
 
 .deadlines {

@@ -13,14 +13,14 @@ function Apply() {
         gradientWidth={150}
       >
         <div className={styles.applyMovingText}>
-          <h2>APPLICATIONS OPEN SOON!</h2>
-          <h2>APPLY ON 8/15!</h2>
-          <h2>APPLICATIONS OPEN SOON!</h2>
-          <h2>APPLY ON 8/15!</h2>
+          <h2>APPLICATIONS ARE OPEN!</h2>
+          <h2>APPLY TODAY!</h2>
+          <h2>APPLICATIONS ARE OPEN!</h2>
+          <h2>APPLY TODAY!</h2>
         </div>
       </Marquee>
 
-      <button className={styles.applyButton} type="submit">APPLY 8/15</button>
+      <a className={styles.applyButton} href="https://forms.gle/2omfCFuzWdiETk5RA" target="_blank" rel="noreferrer">APPLY</a>
       <div className={styles.deadlines}>
         <div>
           <h2>ROUND 1</h2>
