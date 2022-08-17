@@ -63,6 +63,10 @@
   width: 50%;
 }
 
+#sonr {
+  width: 60%;
+}
+
 #mlh {
   width: 40%;
 }
@@ -90,7 +94,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
 
     width: 60%;
     font-size: 64px;
@@ -116,7 +120,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
 
     width: 90%;
     font-size: 32px;
