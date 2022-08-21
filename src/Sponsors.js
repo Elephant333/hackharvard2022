@@ -10,6 +10,7 @@ import aneta from './assets/images/anetaBTC_logo_text_white.png';
 import mlh from './assets/images/mlh-logo-color.png';
 import scm from './assets/images/SCM_logo.png';
 import sonr from './assets/images/sonrLogo.png';
+import gCloud from './assets/images/gCloud.png';
 
 function Sponsors() {
   return (
@@ -19,6 +20,7 @@ function Sponsors() {
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
         <a href="https://www.scm-lp.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.scm}><img className={styles.sponsorLogos} src={scm} alt="SCM" /></a>
         <a href="https://www.sonr.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.sonr}><img className={styles.sponsorLogos} src={sonr} alt="Sonr.io" /></a>
+        <a href="https://rsvp.withgoogle.com/events/google-cloud-speaker-series/hackharvard" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.gCloud}><img className={styles.sponsorLogos} src={gCloud} alt="Google Cloud" /></a>
         <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mlh}><img className={styles.sponsorLogos} src={mlh} alt="MLH" /></a>
       </div>
       <p className={styles.sponsorsBottom}>
