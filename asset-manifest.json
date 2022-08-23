@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e1a0887.css",
-    "main.js": "/static/js/main.1d6618e5.js",
+    "main.js": "/static/js/main.50b3754b.js",
     "static/media/applyBackground.png": "/static/media/applyBackground.83319d8fd2bc375a361c.png",
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.80c07943565d91b976e1.ttf",
     "static/media/welcomeBackground.png": "/static/media/welcomeBackground.05d31de95e609dbe8d7b.png",
@@ -22,12 +22,12 @@
     "static/media/Exo-LightItalic.woff": "/static/media/Exo-LightItalic.b6ca00dcb726284cd55a.woff",
     "static/media/Exo-BoldItalic.woff": "/static/media/Exo-BoldItalic.0830d570606d21b3178f.woff",
     "static/media/anetaBTC_logo_text_white.png": "/static/media/anetaBTC_logo_text_white.03d6d624b5402dff7d66.png",
-    "static/media/SCM_logo.png": "/static/media/SCM_logo.a4489315bfdba6a5faa0.png",
     "static/media/locket.png": "/static/media/locket.e35ccdff716d28528ad7.png",
     "static/media/Exo-Bold.woff": "/static/media/Exo-Bold.ce628d81d929aca2b72c.woff",
     "static/media/Exo-Regular.woff": "/static/media/Exo-Regular.54aa5a76c8ef84da8ab6.woff",
     "static/media/Exo-Light.woff": "/static/media/Exo-Light.a4e3879e86f42cfc9df3.woff",
     "static/media/2.jpg": "/static/media/2.84297043a7de1e159aff.jpg",
+    "static/media/SCM_logo.png": "/static/media/SCM_logo.1cbbc957692fbbc713c1.png",
     "static/media/gCloud.png": "/static/media/gCloud.9eca8ad3f48cdc6a5d57.png",
     "static/media/Zig-Regular.woff": "/static/media/Zig-Regular.680e6705d38d07f91ebf.woff",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -35,10 +35,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.9e1a0887.css.map": "/static/css/main.9e1a0887.css.map",
-    "main.1d6618e5.js.map": "/static/js/main.1d6618e5.js.map"
+    "main.50b3754b.js.map": "/static/js/main.50b3754b.js.map"
   },
   "entrypoints": [
     "static/css/main.9e1a0887.css",
-    "static/js/main.1d6618e5.js"
+    "static/js/main.50b3754b.js"
   ]
 }
