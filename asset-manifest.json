@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6cd9d7f.css",
-    "main.js": "/static/js/main.e7899668.js",
+    "main.css": "/static/css/main.4e4d0d6a.css",
+    "main.js": "/static/js/main.5989682d.js",
     "static/media/applyBackground.png": "/static/media/applyBackground.83319d8fd2bc375a361c.png",
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.80c07943565d91b976e1.ttf",
     "static/media/welcomeBackground.png": "/static/media/welcomeBackground.05d31de95e609dbe8d7b.png",
@@ -30,16 +30,17 @@
     "static/media/leadingLearners.png": "/static/media/leadingLearners.f6819ea89af1baeee6b7.png",
     "static/media/SCM_logo.png": "/static/media/SCM_logo.1cbbc957692fbbc713c1.png",
     "static/media/gCloud.png": "/static/media/gCloud.9eca8ad3f48cdc6a5d57.png",
+    "static/media/assemblyai.png": "/static/media/assemblyai.08b1bc3454aa6041cbcd.png",
     "static/media/Zig-Regular.woff": "/static/media/Zig-Regular.680e6705d38d07f91ebf.woff",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.b6cd9d7f.css.map": "/static/css/main.b6cd9d7f.css.map",
-    "main.e7899668.js.map": "/static/js/main.e7899668.js.map"
+    "main.4e4d0d6a.css.map": "/static/css/main.4e4d0d6a.css.map",
+    "main.5989682d.js.map": "/static/js/main.5989682d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6cd9d7f.css",
-    "static/js/main.e7899668.js"
+    "static/css/main.4e4d0d6a.css",
+    "static/js/main.5989682d.js"
   ]
 }
