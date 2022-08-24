@@ -13,6 +13,7 @@ import sonr from './assets/images/sonrLogo.png';
 import gCloud from './assets/images/gCloud.png';
 import locket from './assets/images/locket.png';
 import ll from './assets/images/leadingLearners.png';
+import aa from './assets/images/assemblyai.png';
 
 function Sponsors() {
   return (
@@ -22,6 +23,7 @@ function Sponsors() {
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
         <a href="https://www.scm-lp.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.scm}><img className={styles.sponsorLogos} src={scm} alt="SCM" /></a>
         <a href="https://apps.apple.com/us/app/locket-widget/id1600525061" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.locket}><img className={styles.sponsorLogos} src={locket} alt="Locketcamera" /></a>
+        <a href="https://www.assemblyai.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aa}><img className={styles.sponsorLogos} src={aa} alt="AssemblyAI" /></a>
         <a href="https://www.sonr.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.sonr}><img className={styles.sponsorLogos} src={sonr} alt="Sonr.io" /></a>
         <a href="https://rsvp.withgoogle.com/events/google-cloud-speaker-series/hackharvard" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.gCloud}><img className={styles.sponsorLogos} src={gCloud} alt="Google Cloud" /></a>
         <a href="https://www.leading-learners.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.ll}><img className={styles.sponsorLogos} src={ll} alt="Leading Learners" /></a>
