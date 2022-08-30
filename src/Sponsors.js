@@ -14,12 +14,14 @@ import gCloud from './assets/images/gCloud.png';
 import locket from './assets/images/locket.png';
 import ll from './assets/images/leadingLearners.png';
 import aa from './assets/images/assemblyai.png';
+import meta from './assets/images/meta.png';
 
 function Sponsors() {
   return (
     <main className={styles.main}>
       <h1 className={styles.titleText}>SPONSORS</h1>
       <div className={styles.sponsorsBox}>
+        <a href="https://about.facebook.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.meta}><img className={styles.sponsorLogos} src={meta} alt="Meta" /></a>
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
         <a href="https://www.scm-lp.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.scm}><img className={styles.sponsorLogos} src={scm} alt="SCM" /></a>
         <a href="https://apps.apple.com/us/app/locket-widget/id1600525061" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.locket}><img className={styles.sponsorLogos} src={locket} alt="Locketcamera" /></a>
