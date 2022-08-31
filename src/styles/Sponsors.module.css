@@ -56,7 +56,10 @@
 }
 
 #meta {
-  width: 100%;
+  width: 90%;
+}
+#mathpix {
+  width: 95%;
 }
 
 #aneta {
@@ -72,7 +75,7 @@
 }
 
 #aa {
-  width: 75%;
+  width: 85%;
 }
 
 #sonr {
@@ -85,6 +88,10 @@
 
 #ll {
   width: 90%;
+}
+
+#echo3d {
+  width: 50%;
 }
 
 #mlh {
@@ -114,7 +121,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(5, min-content);
+    grid-template-rows: repeat(6, min-content);
     row-gap: 20px;
 
     width: 60%;
@@ -141,7 +148,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(9, min-content);
+    grid-template-rows: repeat(11, min-content);
     row-gap: 20px;
 
     width: 90%;
