@@ -45,11 +45,15 @@ function Faq() {
             <p className={styles.question}>When is registration?</p>
             <p className={styles.answer}>Early applications will be due September 4th. Round 2 applications will be due September 28th.</p>
             <p className={styles.question}>Can I attend?</p>
-            <p className={styles.answer}>As long as you are an undergraduate student at any college in the world and are 18 or older, you are invited to apply to HackHarvard!</p>
+            <p className={styles.answer}>As long as you are a student at any accredited college or university in the world and are 18 or older, you are invited to apply to HackHarvard!</p>
             <p className={styles.question}>Does it cost anything?</p>
             <p className={styles.answer}>Admission to HackHarvard is 100% free for all participants!</p>
             <p className={styles.question}>Can I volunteer at HackHarvard?</p>
-            <p className={styles.answer}>Yes! If you are interested in being a mentor, a judge, or something else, please reach out to team@hackharvard.io!</p>
+            <p className={styles.answer}>
+              Yes! If you are interested in being a mentor or a judge, please fill out this&nbsp;
+              <a href="https://forms.gle/wW7DcbcXEPJ66NZ77" id={styles.form}>form</a>
+              . If you have something else in mind, please reach out to team@hackharvard.io!
+            </p>
             <p className={styles.question}>I am interested in sponsoring HackHarvard!</p>
             <p className={styles.answer}>Please email us at sponsors@hackharvard.io and we’ll get back to you ASAP!</p>
           </p>

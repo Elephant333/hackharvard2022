@@ -256,3 +256,10 @@
     height: 100px;
 }
 
+a#form {
+    color: #FFFFFF;
+  }
+  
+  a#form:hover {
+    color: #FFFFFF8C;
+  }
