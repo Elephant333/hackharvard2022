@@ -5,7 +5,7 @@ import styles from './styles/Speakers.module.css';
 import speakersLines from './assets/images/speakers-lines.png';
 import speakersAngles from './assets/images/speakers-angles.png';
 import harsen from './assets/images/harsen.png';
-import img2 from './assets/images/2.jpg';
+import kelly from './assets/images/kelly.jpg';
 import img3 from './assets/images/3.jpg';
 import img4 from './assets/images/4.jpg';
 
@@ -87,12 +87,17 @@ function Speakers() {
           </div>
           <div>
             <div className={styles.speakerContainer}>
-              <img src={img2} alt="Second slide" className={styles.speakerImage} />
+              <img src={kelly} alt="Dr. Kelly Heuer" className={styles.speakerImage} />
               <div className={styles.speakerOverlay}>
-                <div className={styles.speakerText}>Speaker description...</div>
+                <div className={styles.speakerText}>
+                  Dr. Kelly Heuer
+                  <br />
+                  <br />
+                  Dr. Kelly Heuer has worked in higher education for over fifteen years, first as a researcher and professor and now as Vice President of Learning Experience at edX/2U. She holds an AB in philosophy from Harvard and an MA and PhD in philosophy from Georgetown. The first in her family to attend college, Kelly mentors other first-generation students at Harvard and Georgetown and supports colleagues in academia looking for alternative careers in education.
+                </div>
               </div>
             </div>
-            <p className={styles.speakerName}>SPEAKER 2</p>
+            <p className={styles.speakerName}>Dr. Kelly Heuer</p>
           </div>
           <div>
             <div className={styles.speakerContainer}>
