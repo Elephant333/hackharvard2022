@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b1fbc8a5.css",
-    "main.js": "/static/js/main.ee306fbc.js",
+    "main.js": "/static/js/main.d6f76033.js",
+    "static/media/kelly.jpg": "/static/media/kelly.246c2e40caafb60ce596.jpg",
     "static/media/applyBackground.png": "/static/media/applyBackground.83319d8fd2bc375a361c.png",
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.80c07943565d91b976e1.ttf",
     "static/media/welcomeBackground.png": "/static/media/welcomeBackground.05d31de95e609dbe8d7b.png",
@@ -27,7 +28,6 @@
     "static/media/Exo-Regular.woff": "/static/media/Exo-Regular.54aa5a76c8ef84da8ab6.woff",
     "static/media/Exo-Light.woff": "/static/media/Exo-Light.a4e3879e86f42cfc9df3.woff",
     "static/media/SCM_logo.png": "/static/media/SCM_logo.3680e910b64a282d6fee.png",
-    "static/media/2.jpg": "/static/media/2.84297043a7de1e159aff.jpg",
     "static/media/mathpix.png": "/static/media/mathpix.9f7a335c88dc1f72696c.png",
     "static/media/meta.png": "/static/media/meta.e10e7a02e4b0f8b0e982.png",
     "static/media/leadingLearners.png": "/static/media/leadingLearners.a0f2140118edb0a47008.png",
@@ -40,10 +40,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.b1fbc8a5.css.map": "/static/css/main.b1fbc8a5.css.map",
-    "main.ee306fbc.js.map": "/static/js/main.ee306fbc.js.map"
+    "main.d6f76033.js.map": "/static/js/main.d6f76033.js.map"
   },
   "entrypoints": [
     "static/css/main.b1fbc8a5.css",
-    "static/js/main.ee306fbc.js"
+    "static/js/main.d6f76033.js"
   ]
 }
