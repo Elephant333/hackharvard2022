@@ -22,10 +22,8 @@ function Apply() {
 
       <a className={styles.applyButton} href="https://forms.gle/2omfCFuzWdiETk5RA" target="_blank" rel="noreferrer">APPLY</a>
       <div className={styles.deadlines}>
-        <div>
-          <h2>ROUND 1</h2>
-          <span>DEADLINE</span>
-          <h1>SEP. 4TH</h1>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <h1 style={{ color: 'red' }}>CLOSED.</h1>
         </div>
         <div>
           <h2>ROUND 2</h2>
