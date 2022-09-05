@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1fbc8a5.css",
-    "main.js": "/static/js/main.d6f76033.js",
+    "main.css": "/static/css/main.609460b7.css",
+    "main.js": "/static/js/main.7974fba4.js",
     "static/media/kelly.jpg": "/static/media/kelly.246c2e40caafb60ce596.jpg",
     "static/media/applyBackground.png": "/static/media/applyBackground.83319d8fd2bc375a361c.png",
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.80c07943565d91b976e1.ttf",
@@ -14,11 +14,11 @@
     "static/media/teamPic.png": "/static/media/teamPic.fd5ca25d1ec24dfa35b4.png",
     "static/media/prizesbg.png": "/static/media/prizesbg.93c7c9034f03bcf5b546.png",
     "static/media/entertainmentBackground.png": "/static/media/entertainmentBackground.7222f19f0c8ae1492d3e.png",
+    "static/media/hiba.jpg": "/static/media/hiba.4c05d3880ff90da0335c.jpg",
     "static/media/trophy.png": "/static/media/trophy.4b343195d513c1129257.png",
+    "static/media/vineet.png": "/static/media/vineet.141bd56dff0e0795ce6d.png",
     "static/media/harsen.png": "/static/media/harsen.7a56071550d5bed0ebea.png",
     "static/media/HH22_logo_transparent_square.png": "/static/media/HH22_logo_transparent_square.ebd93df1c22cd9cfd0ae.png",
-    "static/media/4.jpg": "/static/media/4.a8742af655f8d29515bd.jpg",
-    "static/media/3.jpg": "/static/media/3.38febf8eae36d9eb8ff4.jpg",
     "static/media/Exo-Italic.woff": "/static/media/Exo-Italic.ce377dfb26370de7dfbe.woff",
     "static/media/Exo-LightItalic.woff": "/static/media/Exo-LightItalic.b6ca00dcb726284cd55a.woff",
     "static/media/Exo-BoldItalic.woff": "/static/media/Exo-BoldItalic.0830d570606d21b3178f.woff",
@@ -39,11 +39,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.b1fbc8a5.css.map": "/static/css/main.b1fbc8a5.css.map",
-    "main.d6f76033.js.map": "/static/js/main.d6f76033.js.map"
+    "main.609460b7.css.map": "/static/css/main.609460b7.css.map",
+    "main.7974fba4.js.map": "/static/js/main.7974fba4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1fbc8a5.css",
-    "static/js/main.d6f76033.js"
+    "static/css/main.609460b7.css",
+    "static/js/main.7974fba4.js"
   ]
 }
