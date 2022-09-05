@@ -6,8 +6,8 @@ import speakersLines from './assets/images/speakers-lines.png';
 import speakersAngles from './assets/images/speakers-angles.png';
 import harsen from './assets/images/harsen.png';
 import kelly from './assets/images/kelly.jpg';
-import img3 from './assets/images/3.jpg';
-import img4 from './assets/images/4.jpg';
+import vineet from './assets/images/vineet.png';
+import hiba from './assets/images/hiba.jpg';
 
 function Speakers() {
   return (
@@ -101,21 +101,31 @@ function Speakers() {
           </div>
           <div>
             <div className={styles.speakerContainer}>
-              <img src={img3} alt="Third slide" className={styles.speakerImage} />
+              <img src={hiba} alt="Hiba Sharief" className={styles.speakerImage} />
               <div className={styles.speakerOverlay}>
-                <div className={styles.speakerText}>Speaker description...</div>
+                <div className={styles.speakerText}>
+                  Hiba Sharief
+                  <br />
+                  <br />
+                  A global thought leader and technology executive with 20+ years of experience across 40+ countries, Hiba is currently a Global Principal Technologist at Amazon Web Services. Hiba was named a Silicon Valley “40 under 40″ while leading IT and Security at Oportun, a Bay Area-based fintech she helped take through its successful IPO. Hiba is an active investor with a passion for supporting startups, empowering the youth and changing the ratio of women in technology and leadership.
+                </div>
               </div>
             </div>
-            <p className={styles.speakerName}>SPEAKER 3</p>
+            <p className={styles.speakerName}>Hiba Sharief</p>
           </div>
           <div>
             <div className={styles.speakerContainer}>
-              <img src={img4} alt="Fourth slide" className={styles.speakerImage} />
+              <img src={vineet} alt="Vineet Raghu" className={styles.speakerImage} />
               <div className={styles.speakerOverlay}>
-                <div className={styles.speakerText}>Speaker description...</div>
+                <div className={styles.speakerText}>
+                  Vineet Raghu
+                  <br />
+                  <br />
+                  Vineet is research faculty in Radiology at Massachusetts General Hospital and Harvard Medical School. His lab’s goal is to improve disease prevention by developing machine learning models to inform patients of their future risk of developing major chronic diseases like cardiovascular diseases and cancers. He completed his PhD in Computer Science from the University of Pittsburgh in 2019 and aims to mentor computer scientists to more effectively collaborate with non-technical domain experts.
+                </div>
               </div>
             </div>
-            <p className={styles.speakerName}>SPEAKER 4</p>
+            <p className={styles.speakerName}>Vineet Raghu</p>
           </div>
           {/* eslint-enable max-len */}
         </Carousel>

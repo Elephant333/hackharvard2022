@@ -66,6 +66,7 @@ index.css initializes all the fonts, so no need to do here */
   object-fit: cover;
   border: 3px solid #FFFFFF;
   transition: .5s ease;
+  background-color: #141623;
 }
 
 .speakerOverlay {
