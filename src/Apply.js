@@ -28,14 +28,8 @@ function Apply() {
             <span>DEADLINE</span>
             <h1>SEP. 4TH</h1>
           </div>
-          <div style={{
-            position: 'absolute', marginTop: '-10em', marginLeft: 0, background: 'transparent',
-          }}
-          >
-            <p style={{
-              color: 'red', fontSize: '4em', fontWeight: 'bold', transform: 'rotate(-30deg)',
-            }}
-            >
+          <div className={styles.closedContainer}>
+            <p className={styles.closed}>
               CLOSED
             </p>
           </div>

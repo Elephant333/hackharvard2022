@@ -98,6 +98,20 @@
     font-weight: bold;
 }
 
+.closed{
+  color: red;
+  font-size: 4em;
+  font-weight: bold;
+  transform: rotate(-30deg)
+}
+
+.closedContainer {
+  position: absolute;
+  margin-top: -11em !important;
+  margin-left: 0em !important;
+  background: transparent !important; 
+}
+
 
 @media only screen and (max-width: 1423px) and (min-width: 801px) {
     .deadlines {
@@ -146,6 +160,18 @@
         font-weight: bold;
         font-size: 1.5 rem;
     }
-    
+    .closed p{
+        color: 'red';
+        font-size: '4em';
+        font-weight: 'bold';
+        transform: 'rotate(-30deg)'
+    }
+
+    .closedContainer {
+      position: absolute;
+      margin-top: -8em !important;
+      margin-left: 0em !important;
+      background: transparent !important; 
+    }
    
 }
