@@ -23,9 +23,22 @@ function Apply() {
       <a className={styles.applyButton} href="https://forms.gle/2omfCFuzWdiETk5RA" target="_blank" rel="noreferrer">APPLY</a>
       <div className={styles.deadlines}>
         <div id={styles.id}>
-          <h2>ROUND 1</h2>
-          <span>DEADLINE</span>
-          <h1>SEP. 4TH</h1>
+          <div style={{ filter: 'blur(4px)', margin: 0, padding: 0 }}>
+            <h2>ROUND 1</h2>
+            <span>DEADLINE</span>
+            <h1>SEP. 4TH</h1>
+          </div>
+          <div style={{
+            position: 'absolute', marginTop: '-10em', marginLeft: 0, background: 'transparent',
+          }}
+          >
+            <p style={{
+              color: 'red', fontSize: '4em', fontWeight: 'bold', transform: 'rotate(-30deg)',
+            }}
+            >
+              CLOSED
+            </p>
+          </div>
         </div>
         <div>
           <h2>ROUND 2</h2>
