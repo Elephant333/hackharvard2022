@@ -8,6 +8,7 @@ import harsen from './assets/images/harsen.png';
 import kelly from './assets/images/kelly.jpg';
 import vineet from './assets/images/vineet.png';
 import hiba from './assets/images/hiba.jpg';
+import amanda from './assets/images/amanda.png';
 
 function Speakers() {
   return (
@@ -126,6 +127,20 @@ function Speakers() {
               </div>
             </div>
             <p className={styles.speakerName}>Vineet Raghu</p>
+          </div>
+          <div>
+            <div className={styles.speakerContainer}>
+              <img src={amanda} alt="Amanda von Goetz" className={styles.speakerImage} />
+              <div className={styles.speakerOverlay}>
+                <div className={styles.speakerText}>
+                  Amanda von Goetz
+                  <br />
+                  <br />
+                  Amanda is the Founder and CEO of Fermata Discovery, Inc., a tech firm that produces SaaS tools for investigators and intelligence professionals. She’s carved an unconventional career path as a professional pianist, founder and software author. Amanda is a frequent guest in classes at MIT, a mentor for the MIT Delta V Accelerator, and served as a member of the jury for the Harvard Case Competition at Harvard Business School. She holds degrees from The Juilliard School and the Massachusetts Institute of Technology.
+                </div>
+              </div>
+            </div>
+            <p className={styles.speakerName}>Amanda von Goetz</p>
           </div>
           {/* eslint-enable max-len */}
         </Carousel>
