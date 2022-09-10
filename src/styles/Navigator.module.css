@@ -8,24 +8,20 @@
 }
 
 .hhlogo {
-  max-height: 60px;;
+  max-height: 60px;
+}
+
+#brand {
+  justify-self: center;
 }
 
 @media only screen and (min-width: 416px) {
   .mlhLogo {
     margin-right: 20px;
   }
-
-  #brand {
-    margin-right: 16px;
-  }
 }
 @media only screen and (max-width: 415px) {
   .mlhLogo {
-    margin-right: 0px;
-  }
-
-  #brand {
     margin-right: 0px;
   }
 }
