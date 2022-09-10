@@ -43,6 +43,9 @@ function Navigator() {
             <Nav.Link href="#sponsors" className="ms-auto">
               Sponsors
             </Nav.Link>
+            <Nav.Link href="#archive" className="ms-auto">
+              Archive
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

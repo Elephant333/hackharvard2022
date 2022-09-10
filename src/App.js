@@ -8,6 +8,7 @@ import Sponsors from './Sponsors';
 import Home from './Home';
 import Apply from './Apply';
 import Prizes from './Prizes';
+import Archive from './Archive';
 import Navigator from './Navigator';
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
       </div>
       <div id="sponsors" style={{ position: 'relative' }}>
         <Sponsors />
+      </div>
+      <div id="archive" style={{ position: 'relative' }}>
+        <Archive />
       </div>
     </div>
   );
