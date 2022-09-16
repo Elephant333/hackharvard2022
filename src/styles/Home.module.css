@@ -4,7 +4,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  z-index: -2;
 }
 
 .mainGrid {
@@ -70,6 +69,11 @@
       drop-shadow(0 2px 2px rgb(255 119 160 / 0.26));
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .applyButton {
+    position: absolute;
+    visibility: hidden;
   }
 }
 /* mobile screen settings */
@@ -140,6 +144,30 @@
   .title .date {
     position: absolute;
     visibility: hidden;
+  }
+  
+  .applyButton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    border: 1px solid;
+    border-radius: 3rem;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px black;
+    text-decoration: none;
+  }
+  .applyButton:hover {
+    color: white;
+    box-shadow: 0px 0px black;
+    transform: translateY(10px);
   }
 }
 

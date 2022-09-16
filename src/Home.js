@@ -76,6 +76,7 @@ function Home() {
         <span />
         <span />
       </div>
+      <a className={styles.applyButton} href="https://forms.gle/2omfCFuzWdiETk5RA" target="_blank" rel="noreferrer">APPLY</a>
       <div className={styles.countdown} id={styles.smallCount}>
         {timerComponents.length ? timerComponents : <span>Time to Hack!</span>}
       </div>
