@@ -16,7 +16,8 @@ import ll from './assets/images/leadingLearners.png';
 import aa from './assets/images/assemblyai.png';
 import meta from './assets/images/meta.png';
 import echo3d from './assets/images/echo3d.png';
-import mathpix from './assets/images/mathpix.png';
+// import mathpix from './assets/images/mathpix.png';
+import sig from './assets/images/SIG.png';
 
 function Sponsors() {
   return (
@@ -24,8 +25,9 @@ function Sponsors() {
       <h1 className={styles.titleText}>SPONSORS</h1>
       <div className={styles.sponsorsBox}>
         <a href="https://about.facebook.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.meta}><img className={styles.sponsorLogos} src={meta} alt="Meta" /></a>
-        <a href="https://mathpix.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathpix}><img className={styles.sponsorLogos} src={mathpix} alt="Mathpix" /></a>
+        {/* <a href="https://mathpix.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathpix}><img className={styles.sponsorLogos} src={mathpix} alt="Mathpix" /></a> */}
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
+        <a href="https://sig.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.sig}><img className={styles.sponsorLogos} src={sig} alt="SIG" /></a>
         <a href="https://www.scm-lp.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.scm}><img className={styles.sponsorLogos} src={scm} alt="SCM" /></a>
         <a href="https://apps.apple.com/us/app/locket-widget/id1600525061" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.locket}><img className={styles.sponsorLogos} src={locket} alt="Locketcamera" /></a>
         <a href="https://www.assemblyai.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aa}><img className={styles.sponsorLogos} src={aa} alt="AssemblyAI" /></a>
