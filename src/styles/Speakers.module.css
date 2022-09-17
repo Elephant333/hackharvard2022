@@ -113,11 +113,23 @@ index.css initializes all the fonts, so no need to do here */
   .speakerText{
     font-size: 2.5vw;
   }
+
+  .speakerImage {
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  .speakerOverlay {
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+  }
 }
 
 .speakerName {
   width: 90%;
   text-align: center;
+  margin: auto;
   font-family: 'Lato';
   font-weight: 900;
 }

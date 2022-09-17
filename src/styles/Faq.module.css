@@ -166,7 +166,8 @@
     }
 
     .teamPic#small{
-        margin-top: auto;
+        display: block;
+        margin: auto;
         width: 90%;
     }
 
@@ -183,7 +184,9 @@
     }
 
     .statue#small {
-        margin-top: auto;
+        display: block;
+        margin: auto;
+        box-sizing: border-box;
         width: 80%;
     }
 
