@@ -10,7 +10,6 @@
 .titleText {
   width: 100%;
   margin-top: 6%;
-
   font-family: 'Exo';
   font-style: normal;
   font-weight: 900;
@@ -43,6 +42,14 @@
   }
 }
 
+.scheduleText {
+  margin-top: 10%;
+  font-family: 'Lato';
+  font-weight: 10;
+  line-height: 90.2%;
+  font-size: 20px;
+}
+
 .scheduleBox {
   box-sizing: border-box;
 
@@ -58,4 +65,9 @@
   text-align: center;
   
   border: 5px solid #FFFFFF;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 20px;
+  
 }
+
