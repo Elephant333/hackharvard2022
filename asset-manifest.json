@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd109814.css",
-    "main.js": "/static/js/main.c102cb01.js",
+    "main.css": "/static/css/main.a628edde.css",
+    "main.js": "/static/js/main.ba21919a.js",
     "static/media/amanda.png": "/static/media/amanda.136e1c57106759f072eb.png",
     "static/media/kelly.jpg": "/static/media/kelly.246c2e40caafb60ce596.jpg",
     "static/media/applyBackground.png": "/static/media/applyBackground.83319d8fd2bc375a361c.png",
@@ -35,17 +35,18 @@
     "static/media/leadingLearners.png": "/static/media/leadingLearners.a0f2140118edb0a47008.png",
     "static/media/echo3d.png": "/static/media/echo3d.c2df8feed8945f2060b2.png",
     "static/media/gCloud.png": "/static/media/gCloud.9eca8ad3f48cdc6a5d57.png",
+    "static/media/mathworks.png": "/static/media/mathworks.3a56a8d579fb7aef5fb0.png",
     "static/media/assemblyai.png": "/static/media/assemblyai.08b1bc3454aa6041cbcd.png",
     "static/media/Zig-Regular.woff": "/static/media/Zig-Regular.680e6705d38d07f91ebf.woff",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.dd109814.css.map": "/static/css/main.dd109814.css.map",
-    "main.c102cb01.js.map": "/static/js/main.c102cb01.js.map"
+    "main.a628edde.css.map": "/static/css/main.a628edde.css.map",
+    "main.ba21919a.js.map": "/static/js/main.ba21919a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd109814.css",
-    "static/js/main.c102cb01.js"
+    "static/css/main.a628edde.css",
+    "static/js/main.ba21919a.js"
   ]
 }
