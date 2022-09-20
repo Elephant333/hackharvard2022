@@ -59,19 +59,27 @@
   width: 90%;
 }
 
-#mathpix {
-  width: 95%;
+#pi {
+  width: 30%;
 }
+
+/* #mathpix {
+  width: 95%;
+} */
 
 #aneta {
   width: 90%;
 }
 
-#sig {
+#scm {
   width: 70%;
 }
 
-#scm {
+#mathworks {
+  width: 90%;
+}
+
+#sig {
   width: 70%;
 }
 
@@ -153,7 +161,7 @@
   .sponsorsBox {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(11, min-content);
+    grid-template-rows: repeat(12, min-content);
     row-gap: 20px;
 
     width: 90%;

@@ -65,9 +65,9 @@
   text-align: center;
   
   border: 5px solid #FFFFFF;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  column-gap: 20px;
+  column-gap: 20px; */
   
 }
 
