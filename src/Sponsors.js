@@ -20,6 +20,8 @@ import echo3d from './assets/images/echo3d.png';
 import sig from './assets/images/SIG.png';
 import pi from './assets/images/pi.png';
 import mathworks from './assets/images/mathworks.png';
+import techtreeroot from './assets/images/techtreeroot.png';
+import hrt from './assets/images/HRT.png';
 
 function Sponsors() {
   return (
@@ -27,8 +29,10 @@ function Sponsors() {
       <h1 className={styles.titleText}>SPONSORS</h1>
       <div className={styles.sponsorsBox}>
         <a href="https://about.facebook.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.meta}><img className={styles.sponsorLogos} src={meta} alt="Meta" /></a>
+        <a href="https://www.hudsonrivertrading.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.hrt}><img className={styles.sponsorLogos} src={hrt} alt="HRT" /></a>
         <a href="https://minepi.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.pi}><img className={styles.sponsorLogos} src={pi} alt="Pi" /></a>
         {/* <a href="https://mathpix.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathpix}><img className={styles.sponsorLogos} src={mathpix} alt="Mathpix" /></a> */}
+        <a href="https://techtreeroot.org/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.techtreeroot}><img className={styles.sponsorLogos} src={techtreeroot} alt="TechTreeRoot" /></a>
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
         <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathworks}><img className={styles.sponsorLogos} src={mathworks} alt="MathWorks" /></a>
         <a href="https://www.scm-lp.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.scm}><img className={styles.sponsorLogos} src={scm} alt="SCM" /></a>
