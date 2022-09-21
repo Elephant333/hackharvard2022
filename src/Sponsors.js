@@ -16,7 +16,6 @@ import ll from './assets/images/leadingLearners.png';
 import aa from './assets/images/assemblyai.png';
 import meta from './assets/images/meta.png';
 import echo3d from './assets/images/echo3d.png';
-// import mathpix from './assets/images/mathpix.png';
 import sig from './assets/images/SIG.png';
 import pi from './assets/images/pi.png';
 import mathworks from './assets/images/mathworks.png';
@@ -31,7 +30,6 @@ function Sponsors() {
         <a href="https://about.facebook.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.meta}><img className={styles.sponsorLogos} src={meta} alt="Meta" /></a>
         <a href="https://www.hudsonrivertrading.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.hrt}><img className={styles.sponsorLogos} src={hrt} alt="HRT" /></a>
         <a href="https://minepi.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.pi}><img className={styles.sponsorLogos} src={pi} alt="Pi" /></a>
-        {/* <a href="https://mathpix.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathpix}><img className={styles.sponsorLogos} src={mathpix} alt="Mathpix" /></a> */}
         <a href="https://techtreeroot.org/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.techtreeroot}><img className={styles.sponsorLogos} src={techtreeroot} alt="TechTreeRoot" /></a>
         <a href="https://anetabtc.io/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.aneta}><img className={styles.sponsorLogos} src={aneta} alt="anetaBTC" /></a>
         <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mathworks}><img className={styles.sponsorLogos} src={mathworks} alt="MathWorks" /></a>
