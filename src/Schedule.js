@@ -6,14 +6,15 @@ function Schedule() {
     <main className={styles.main}>
       <h1 className={styles.titleText}>SCHEDULE</h1>
       <div className={styles.scheduleBox}>
-        <iframe title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" height="500" width="770"/>
+        <iframe style={{ height: '100%', width: '100%' }} title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" />
         {/* <div>
           Friday
           <div className={styles.scheduleText}>
             <p>Registration: 4:00 PM - 7:00 PM | Lobby</p>
             <p>Dinner: 5:00 PM - 7:00 PM | Lobby </p>
             <p>
-              Opening Ceremony: 7:00 PM - 8:00 PM | Science Center C + Live Stream in First Floor, Hacker Room Left #104
+              Opening Ceremony: 7:00 PM - 8:00 PM | Science Center C + Live
+               Stream in First Floor, Hacker Room Left #104
             </p>
             <p>Late Dinner: 8:00 PM - 10:00 PM | Lobby</p>
             <p>Pi Tech Talk: 9:00 PM - 10:00 PM | Basement Cinema</p>
