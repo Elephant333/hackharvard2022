@@ -22,7 +22,7 @@ function Welcome() {
           loop={1}
           wrapper="p"
           steps={[
-            'This year, our theme is Control, Alt, Create. It’s time to get retro and take inspiration from the past: whether that means harkening to an early technological age, or booting up an old, forgotten project to give it a new, creative twist.',
+            'This year, our theme is Ctrl, Alt, Create. It’s time to get retro and take inspiration from the past: whether that means harkening to an early technological age, or booting up an old, forgotten project to give it a new, creative twist.',
             0,
           ]}
         />

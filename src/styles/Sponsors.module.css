@@ -55,54 +55,6 @@
   margin-right: auto;
 }
 
-#meta {
-  width: 90%;
-}
-
-#mathpix {
-  width: 95%;
-}
-
-#aneta {
-  width: 90%;
-}
-
-#sig {
-  width: 70%;
-}
-
-#scm {
-  width: 70%;
-}
-
-#locket {
-  width: 70%;
-}
-
-#aa {
-  width: 85%;
-}
-
-#sonr {
-  width: 60%;
-}
-
-#gCloud {
-  width: 90%;
-}
-
-#ll {
-  width: 90%;
-}
-
-#echo3d {
-  width: 50%;
-}
-
-#mlh {
-  width: 40%;
-}
-
 .sponsorsBottom {
   width: 100%;
   margin-top: 40px;
@@ -124,12 +76,15 @@
   }
 
   .sponsorsBox {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(6, min-content);
-    row-gap: 20px;
+    grid-template-rows: repeat(8, min-content);
+    row-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
-    width: 60%;
+    width: 70%;
     font-size: 64px;
   }
 
@@ -144,6 +99,70 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  #meta {
+    width: 40%;
+  }
+  
+  #hrt {
+    width: 30%;
+  }
+  
+  #pi {
+    width: 20%;
+  }
+  
+  #techtreeroot {
+    width: 20%;
+  }
+  
+  #aneta {
+    width: 25%;
+  }
+  
+  #mathworks {
+    width: 30%;
+  }
+  
+  #scm {
+    width: 20%;
+  }
+  
+  #sig {
+    width: 20%;
+  }
+  
+  #locket {
+    width: 20%;
+  }
+  
+  #aa {
+    width: 25%;
+  }
+  
+  #sonr {
+    width: 15%;
+  }
+  
+  #gCloud {
+    width: 20%;
+  }
+  
+  #ll {
+    width: 25%;
+  }
+  
+  #raptor {
+    width: 15%;
+  }
+
+  #echo3d {
+    width: 15%;
+  }
+  
+  #mlh {
+    width: 15%;
+  }
 }
 @media only screen and (max-width: 900px) {
   .sponsorsBottom{
@@ -151,10 +170,13 @@
   }
 
   .sponsorsBox {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(11, min-content);
-    row-gap: 20px;
+    grid-template-rows: repeat(15, min-content);
+    row-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 
     width: 90%;
     font-size: 32px;
@@ -171,6 +193,70 @@
     position: absolute;
     visibility: hidden;
     font-size: 0px;
+  }
+
+  #meta {
+    width: 100%;
+  }
+  
+  #hrt {
+    width: 45%;
+  }
+  
+  #pi {
+    width: 35%;
+  }
+  
+  #techtreeroot {
+    width: 40%;
+  }
+  
+  #aneta {
+    width: 45%;
+  }
+  
+  #mathworks {
+    width: 40%;
+  }
+  
+  #scm {
+    width: 40%;
+  }
+  
+  #sig {
+    width: 30%;
+  }
+  
+  #locket {
+    width: 30%;
+  }
+  
+  #aa {
+    width: 35%;
+  }
+  
+  #sonr {
+    width: 25%;
+  }
+  
+  #gCloud {
+    width: 25%;
+  }
+  
+  #ll {
+    width: 30%;
+  }
+
+  #raptor {
+    width: 20%;
+  }
+  
+  #echo3d {
+    width: 20%;
+  }
+  
+  #mlh {
+    width: 15%;
   }
 }
 
