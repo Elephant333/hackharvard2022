@@ -6,7 +6,7 @@ function Schedule() {
     <main className={styles.main}>
       <h1 className={styles.titleText}>SCHEDULE</h1>
       <div className={styles.scheduleBox}>
-        <iframe title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" height="500" width="500" />
+        <iframe title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" height="500" width="770"/>
         {/* <div>
           Friday
           <div className={styles.scheduleText}>
