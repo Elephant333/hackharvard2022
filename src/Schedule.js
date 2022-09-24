@@ -6,7 +6,8 @@ function Schedule() {
     <main className={styles.main}>
       <h1 className={styles.titleText}>SCHEDULE</h1>
       <div className={styles.scheduleBox}>
-        <div>
+        <iframe title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" height="500" width="500" />
+        {/* <div>
           Friday
           <div className={styles.scheduleText}>
             <p>Registration: 4:00 PM - 7:00 PM | Lobby</p>
@@ -22,8 +23,8 @@ function Schedule() {
         <div>
           Saturday
           <div className={styles.scheduleText}>
-            <p>Registration: 6:00 PM - 7:00 PM</p>
-            <p>Opening Ceremony: 7:00 PM - 8:00 PM</p>
+            <p>Breakfast: 7:00 AM - 10:00 AM | Lobby</p>
+            <p>Sponsors Recruiter Fair: 10:00 AM - 12:00 PM | First Floor Lobby</p>
             <p>Icebreaker: 8:00 PM - 9:00 PM</p>
             <p>Free Time: 9:00 PM - 10:00 PM</p>
           </div>
@@ -36,7 +37,7 @@ function Schedule() {
             <p>Icebreaker: 8:00 PM - 9:00 PM</p>
             <p>Free Time: 9:00 PM - 10:00 PM</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );

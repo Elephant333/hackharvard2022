@@ -54,7 +54,7 @@
 .scheduleBox {
   box-sizing: border-box;
 
-  height: 500px;
+  height: auto;
   padding: 20px;
   margin: 50px;
 
