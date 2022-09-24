@@ -46,8 +46,9 @@
   margin-top: 10%;
   font-family: 'Lato';
   font-weight: 10;
-  line-height: 90.2%;
+  /* line-height: 90.2%; */
   font-size: 20px;
+  margin: 10px;
 }
 
 .scheduleBox {
@@ -55,19 +56,17 @@
 
   height: 500px;
   padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin: 50px;
 
   font-family: 'Lato';
-  font-weight: 900;
-  line-height: 90.2%;
+  font-weight: 700;
+  font-size: 30px;
+  /* line-height: 99.2%; */
   vertical-align: middle;
   text-align: center;
   
   border: 5px solid #FFFFFF;
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  column-gap: 20px;
-  
+  grid-template-columns: 33.3% 33.3% 33.3%;  
 }
 
