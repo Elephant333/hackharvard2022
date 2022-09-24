@@ -5,8 +5,10 @@ function Schedule() {
   return (
     <main className={styles.main}>
       <h1 className={styles.titleText}>SCHEDULE</h1>
+
+      <p><a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml" rel="noreferrer">Open in a new tab</a></p>
       <div className={styles.scheduleBox}>
-        <iframe style={{ height: '100%', width: '100%' }} title="schedule" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRr5cGtwjRRCfqdSvUlzTrcDMpUphd7jeJz1tatUvDILcpTMlqXatvPau2LE8fwv9iZEHhMz3rmZWMw/pubhtml?gid=1813581895&amp;single=true&amp;widget=true&amp;headers=false" />
+        <iframe title="schedule" style={{ height: '100%', width: '100%' }} src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml?widget=true&amp;headers=false" />
         {/* <div>
           Friday
           <div className={styles.scheduleText}>
