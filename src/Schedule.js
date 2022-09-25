@@ -5,10 +5,9 @@ function Schedule() {
   return (
     <main className={styles.main}>
       <h1 className={styles.titleText}>SCHEDULE</h1>
-
-      <p><a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml" rel="noreferrer">Open in a new tab</a></p>
+      <p><a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml" rel="noreferrer" className={styles.link}>Open in a new tab</a></p>
       <div className={styles.scheduleBox}>
-        <iframe title="schedule" style={{ height: '100%', width: '100%' }} src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml?widget=true&amp;headers=false" />
+        <iframe href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml?widget=true&amp;headers=false" title="schedule" style={{ height: '100%', width: '100%' }} src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmjpTPbYNi034o8PIdU-_uG7gso01-V2Ev129RxXtF-lOe8DdOlJmE4DObFo6CmnKD03ZyedikLd_I/pubhtml?widget=true&amp;headers=false" />
         {/* <div>
           Friday
           <div className={styles.scheduleText}>
