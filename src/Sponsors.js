@@ -22,6 +22,7 @@ import mathworks from './assets/images/mathworks.png';
 import techtreeroot from './assets/images/techtreeroot.png';
 import hrt from './assets/images/HRT.png';
 import raptor from './assets/images/raptor.png';
+import sticker from './assets/images/sticker.png';
 
 function Sponsors() {
   return (
@@ -43,6 +44,7 @@ function Sponsors() {
         <a href="https://www.leading-learners.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.ll}><img className={styles.sponsorLogos} src={ll} alt="Leading Learners" /></a>
         <a href="https://raptormaps.com/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.raptor}><img className={styles.sponsorLogos} src={raptor} alt="Raptor Maps" /></a>
         <a href="https://www.echo3d.co/" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.echo3d}><img className={styles.sponsorLogos} src={echo3d} alt="echo3D" /></a>
+        <a href="https://mule.to/p3cf" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.sticker}><img className={styles.sponsorLogos} src={sticker} alt="sticker" /></a>
         <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer" className={styles.sponsorLogos} id={styles.mlh}><img className={styles.sponsorLogos} src={mlh} alt="MLH" /></a>
       </div>
       <p className={styles.sponsorsBottom}>
