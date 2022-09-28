@@ -39,6 +39,11 @@ function Apply() {
           <span>DEADLINE</span>
           <h1>SEP. 28TH</h1>
         </div>
+        <div>
+          <h2>LATE APPS</h2>
+          <span>DEADLINE</span>
+          <h1>OCT. 7TH</h1>
+        </div>
       </div>
     </div>
   );
