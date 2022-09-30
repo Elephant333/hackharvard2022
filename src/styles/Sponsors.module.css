@@ -156,6 +156,10 @@
     width: 15%;
   }
 
+  #FP {
+    width: 20%;
+  }
+
   #echo3d {
     width: 15%;
   }
@@ -254,7 +258,11 @@
   #raptor {
     width: 20%;
   }
-  
+
+  #FP {
+    width: 20%;
+  }
+
   #echo3d {
     width: 20%;
   }
