@@ -6,6 +6,16 @@ function Tracks() {
     <main className={styles.main}>
       {/* eslint-disable max-len */}
       <h1 className={styles.titleText}>TRACKS</h1>
+      <div className={styles.pitrack}>
+        <div className={styles.trackContainer}>
+          <div className={styles.front}>
+            BLOCKCHAIN
+          </div>
+          <div className={styles.back}>
+            Blockchain is ushering in the next wave of technological advancements and has had widespread impacts on the financial system and innovation. Pi Network, a social cryptocurrency, is creating the blueprint for true digital citizenship in Web3. Develop your app on Pi Network’s easy-to-use platform, and have the opportunity to plug-in to our community of over 35 million engaged users. Successful hackers  in this track will make use of our APIs and other tech; examples include games, art/NFT apps, DeFi apps, multiverse platforms, social apps and more.
+          </div>
+        </div>
+      </div>
       <div className={styles.education}>
         <div className={styles.trackContainer}>
           <div className={styles.front}>

@@ -6,7 +6,7 @@
     color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .titleText {
@@ -24,7 +24,7 @@
     color: #ee4c4c;
   }
 
-  .education {
+  .pitrack {
     width: 575px;
     height: 575px;
     font-family: 'Exo';
@@ -37,6 +37,31 @@
     margin-right: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
+  }
+
+  .pitrack .back {
+    position: fixed;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .pitrack .front {
+    font-size: 5rem;
+  }
+
+  .education {
+    width: 575px;
+    height: 575px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    margin-right: 5vw;
+    margin-left: auto;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
   }
 
   .education .back {
@@ -59,8 +84,8 @@
     line-height: 90%;
     -webkit-perspective: 1000px;
     perspective: 1000px;
-    margin-left: auto;
-    margin-right: 5vw;
+    margin-right: auto;
+    margin-left: 5vw;
     margin-top: 0vh;
     margin-bottom: 10vh;
   }
@@ -84,10 +109,10 @@
     line-height: 90%;
     -webkit-perspective: 1000px;
     perspective: 1000px;
-    margin-left: 5vw;
-    margin-right: auto;
-    margin-top: 0vh;
-    margin-bottom: 10vh;
+    margin-right: 5vw;
+    margin-left: auto;
+    margin-top: -10vh;
+    margin-bottom: 0vh;
   }
 
   .lifehack .back {
@@ -106,6 +131,31 @@
     color: #ffffff;
     display: grid;
     grid-template-rows: min-content repeat(3, 1fr);
+  }
+
+  .pitrack {
+    width: 575px;
+    height: 575px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
+
+  .pitrack .back {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .pitrack .front {
+    font-size: 5rem;
   }
 
   .education {
@@ -204,6 +254,31 @@
     color: #ffffff;
     display: grid;
     grid-template-rows: min-content repeat(3, 1fr);
+  }
+
+  .pitrack {
+    width: 90vw;
+    height: 90vw;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 90%;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+  }
+
+  .pitrack .back {
+    font-size: 3.7vw;
+    line-height: 4vw;
+  }
+
+  .pitrack .front {
+    font-size: 3rem;
   }
 
   .education {
@@ -318,6 +393,28 @@
 
 .back {
   color: white;
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+}
+
+.pitrack .front {
+  background: url('../assets/images/pitrack.png');
+  text-align: center;
+  backface-visibility: hidden;
+  background-size:cover;
+}
+
+.pitrack .back {
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Lato';
+
+  background: #C0003A;
+  border-radius: 50%;
+}
+
+.pitrack:hover .trackContainer {
   -webkit-transform: rotateY(179.9deg);
   transform: rotateY(179.9deg);
 }
