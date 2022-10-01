@@ -35,8 +35,8 @@
     perspective: 1000px;
     margin-left: 5vw;
     margin-right: auto;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
   }
 
   .pitrack .back {
@@ -46,6 +46,7 @@
   }
 
   .pitrack .front {
+    line-height: 85px;
     font-size: 5rem;
   }
 
@@ -60,7 +61,7 @@
     perspective: 1000px;
     margin-right: 5vw;
     margin-left: auto;
-    margin-top: 0vh;
+    margin-top: 5vh;
     margin-bottom: 0vh;
   }
 
@@ -86,8 +87,8 @@
     perspective: 1000px;
     margin-right: auto;
     margin-left: 5vw;
-    margin-top: 0vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
   }
 
   .entertainment .back {
@@ -111,8 +112,8 @@
     perspective: 1000px;
     margin-right: 5vw;
     margin-left: auto;
-    margin-top: -10vh;
-    margin-bottom: 0vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 
   .lifehack .back {
