@@ -1,6 +1,9 @@
 import React from 'react';
 import Finale from './Finale';
 import Navigator from './Navigator';
+import Sponsors from './Sponsers';
+import Winners from './Winners';
+import Gallery from './Gallery';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
     >
       <Navigator />
       <Finale />
+      <Winners />
+      <Gallery />
+      <Sponsors />
     </div>
   );
 }
