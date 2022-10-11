@@ -66,7 +66,7 @@ function Home() {
             </div>
           </h1>
           <div className={styles.countdown}>
-            {timerComponents.length ? timerComponents : <span>Time to Hack!</span>}
+            {timerComponents.length ? timerComponents : <span>Countdown Has Ended!</span>}
           </div>
           <div className={styles.date} id={styles.smallDate}>October 14-16</div>
         </div>
@@ -87,9 +87,9 @@ function Home() {
       >
         <div className={styles.applyMovingText}>
           <h2>HACKHARVARD 2022!</h2>
-          <h2>APPLY TODAY!</h2>
+          <h2>APPLICATIONS CLOSED</h2>
           <h2>HACKHARVARD 2022!</h2>
-          <h2>APPLY TODAY!</h2>
+          <h2>APPLICATIONS CLOSED</h2>
         </div>
       </Marquee>
     </main>

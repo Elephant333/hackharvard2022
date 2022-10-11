@@ -13,10 +13,10 @@ function Apply() {
         gradientWidth={150}
       >
         <div className={styles.applyMovingText}>
-          <h2>APPLICATIONS ARE OPEN!</h2>
-          <h2>APPLY TODAY!</h2>
-          <h2>APPLICATIONS ARE OPEN!</h2>
-          <h2>APPLY TODAY!</h2>
+          <h2>APPLICATIONS CLOSED</h2>
+          <h2>APPLY NEXT YEAR!</h2>
+          <h2>APPLICATIONS CLOSED</h2>
+          <h2>APPLY NEXT YEAR!</h2>
         </div>
       </Marquee>
 
@@ -34,15 +34,29 @@ function Apply() {
             </p>
           </div>
         </div>
-        <div>
-          <h2>ROUND 2</h2>
-          <span>DEADLINE</span>
-          <h1>SEP. 28TH</h1>
+        <div id={styles.id}>
+          <div style={{ filter: 'blur(4px)', margin: 0, padding: 0 }}>
+            <h2>ROUND 2</h2>
+            <span>DEADLINE</span>
+            <h1>SEP. 28TH</h1>
+          </div>
+          <div className={styles.closedContainer}>
+            <p className={styles.closed}>
+              CLOSED
+            </p>
+          </div>
         </div>
-        <div>
-          <h2>LATE APPS</h2>
-          <span>DEADLINE</span>
-          <h1>OCT. 7TH</h1>
+        <div id={styles.id}>
+          <div style={{ filter: 'blur(4px)', margin: 0, padding: 0 }}>
+            <h2>LATE APPS</h2>
+            <span>DEADLINE</span>
+            <h1>OCT. 7TH</h1>
+          </div>
+          <div className={styles.closedContainer}>
+            <p className={styles.closed}>
+              CLOSED
+            </p>
+          </div>
         </div>
       </div>
     </div>
