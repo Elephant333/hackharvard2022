@@ -9,6 +9,8 @@ import kelly from './assets/images/kelly.jpg';
 import vineet from './assets/images/vineet.png';
 import hiba from './assets/images/hiba.jpg';
 import amanda from './assets/images/amanda.png';
+import fatima from './assets/images/fatima.jpeg';
+import chante from './assets/images/chante.jpeg';
 
 function Speakers() {
   return (
@@ -141,6 +143,34 @@ function Speakers() {
               </div>
             </div>
             <p className={styles.speakerName}>Amanda von Goetz</p>
+          </div>
+          <div>
+            <div className={styles.speakerContainer}>
+              <img src={fatima} alt="Fatima Taj" className={styles.speakerImage} />
+              <div className={styles.speakerOverlay}>
+                <div className={styles.speakerText}>
+                  Fatima Taj
+                  <br />
+                  <br />
+                  Fatima is a graduate from the University of Waterloo, Canada. Post graduation, she&lsquos worked full-time as a Software Developer at DRW, a trading firm and currently works at Yelp as a Software Engineer.
+                </div>
+              </div>
+            </div>
+            <p className={styles.speakerName}>Fatima Taj</p>
+          </div>
+          <div>
+            <div className={styles.speakerContainer}>
+              <img src={chante} alt="Chante Harris" className={styles.speakerImage} />
+              <div className={styles.speakerOverlay}>
+                <div className={styles.speakerText}>
+                  Chante Harris
+                  <br />
+                  <br />
+                  Chante is the Director of Climate Investment and Partnerships for Venture For ClimateTech (V4C) at SecondMuse, where she sources, funds, and scales the best climate tech solutions across the globe by offering them hands-on support until they are ready for their first customers, pilot runs, and investment. Named by GreenBiz as a 30 Under 30, NASDAQ as a Woman to Watch in 2022, Chante is at the helm of driving climate innovation, building sustainable cities, advancing cross-sector collaboration, and tapping into community to launch better solutions and technologies. She is based in New York and sits on the Board of Summit Impact and Power Shift Network.
+                </div>
+              </div>
+            </div>
+            <p className={styles.speakerName}>Chante Harris</p>
           </div>
           {/* eslint-enable max-len */}
         </Carousel>
