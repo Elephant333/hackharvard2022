@@ -4,6 +4,7 @@ import Navigator from './Navigator';
 import Sponsors from './Sponsers';
 import Winners from './Winners';
 import Gallery from './Gallery';
+import Highlight from './Highlight';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navigator />
       <Finale />
       <Winners />
+      <Highlight />
       <Gallery />
       <Sponsors />
     </div>

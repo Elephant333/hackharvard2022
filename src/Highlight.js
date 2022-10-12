@@ -1,27 +1,31 @@
 import React from 'react';
 import styles from './styles/Highlight.module.css';
-import project from './src/assests/images/bookProject.png';
+import project from './assets/images/bookProject.png';
 
 export default function Highlight() {
   return (
     <main className={styles.main}>
-      <div className="container">
+      <div className={styles.mainGrid}>
         <img
           src={project}
           alt="Project"
-          style={{ marginTop: '12%', display: 'inline-block;' }}
+          style={{ display: 'inline-block;', width: '100%' }}
         />
-        <p>
-          Project Education
-          {' '}
-          <br />
-          Created By:
-          {' '}
-          <br />
-          {' '}
-          <br />
-        </p>
+        <div style={{ textAlign: 'center' }}>
+          <p>
+            Project Education
+            {' '}
+            <br />
+            Created By:
+            {' '}
+            <br />
+            {' '}
+            <br />
+          </p>
+          <div />
+        </div>
       </div>
+
     </main>
 
   );
