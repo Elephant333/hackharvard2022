@@ -1,18 +1,23 @@
 .main {
-    background-color: #141623;
-    color: #ffffff;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: -2;
-}
-  
-.container {
-    display: flex;
-    align-items: center;
+  background-color: #141623;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: -2;
 }
 
-.mainGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.container {
+  padding: 0 2rem 0 2rem;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .image {
+    border-radius: 0.375rem;
+    width: 40vw;
+  }
 }
