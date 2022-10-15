@@ -15,7 +15,7 @@ function App() {
     >
       <Navigator />
       <Finale />
-      {/* <Winners /> */}
+      <Winners />
       <Highlight />
       <Gallery />
       <Sponsors />
