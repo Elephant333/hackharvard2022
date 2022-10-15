@@ -1,5 +1,4 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import styles from './styles/Winners.module.css';
 
@@ -18,6 +17,7 @@ function PodiumStep({ podium, winner }) {
         style={{
           alignSelf: 'center',
           marginBottom: '.25rem',
+          // width: width / 3,
         }}
         initial="hidden"
         animate="visible"
@@ -25,8 +25,8 @@ function PodiumStep({ podium, winner }) {
           visible: {
             opacity: 1,
             transition: {
-              delay: 1 + (offset + 2),
-              duration: 0.75,
+              delay: 0.5,
+              duration: 0.25,
             },
           },
           hidden: { opacity: 0 },
@@ -58,13 +58,13 @@ function PodiumStep({ podium, winner }) {
 
       <motion.div
         style={{
-          width: '20rem',
+          // width: width / 3,
           placeContent: 'center',
           display: 'flex',
           borderTopLeftRadius: '.5rem',
           borderTopRightRadius: '.5rem',
           borderColor: 'rgba(255,24,93,1)',
-          backgroundColor: 'rgba(165,28,48,1)',
+          backgroundColor: '#e01634',
           marginBottom: -1,
           filter: `opacity(${0.1 + offset / podium.length})`,
         }}
@@ -75,8 +75,8 @@ function PodiumStep({ podium, winner }) {
             height: 300 * (offset / podium.length),
             opacity: 1,
             transition: {
-              delay: 1 + offset,
-              duration: 2,
+              delay: 0.25,
+              duration: 0.75,
               ease: 'backInOut',
             },
           },
@@ -100,13 +100,21 @@ function PodiumStep({ podium, winner }) {
   );
 }
 
-export function Podium({ winners }) {
+function Podium({ winners }) {
   const podium = [6, 4, 2, 0, 1, 3, 5, 7]
     .reduce((podiumOrder, position) => [...podiumOrder, winners[position]], [])
     .filter(Boolean);
 
+  // get width of screen
+  // const [width, setWidth] = useState(0);
+  // const ref = useRef(null);
+  // useEffect(() => {
+  //   setWidth(ref.current.offsetWidth);
+  // }, []);
+
   return (
     <div
+      // ref={ref}
       style={{
         display: 'grid',
         gridAutoFlow: 'column dense',
@@ -120,7 +128,7 @@ export function Podium({ winners }) {
       }}
     >
       {podium.map((winner) => (
-        <PodiumStep key={winner.id} podium={podium} winner={winner} />
+        <PodiumStep podium={podium} winner={winner} />
       ))}
     </div>
   );
@@ -143,15 +151,66 @@ const winners = [
 ].map((winner, position) => ({ ...winner, position }));
 
 export default function Winners() {
+  const mainRef = useRef(null);
+  const [showWinners, setShowWinners] = useState(false);
+
+  useEffect(() => {
+    // check if component visbile on screen, if so, change usestate to true
+    const handleScroll = () => {
+      const isVisible = window.scrollY < mainRef.current.offsetTop;
+      if (isVisible) {
+        setShowWinners(true);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  if (!showWinners) {
+    return <div ref={mainRef} />;
+  }
   return (
     <main className={styles.main}>
-      <div className={styles.container}>
+      <div ref={mainRef} className={styles.container}>
         <div style={{ fontWeight: 'bold', fontSize: 40, textAlign: 'center' }}>
-          WINNERS
+          OVERALL WINNERS
         </div>
-        <Podium winners={winners} />
-
+        <div style={{ width: '100%' }}>
+          <Podium winners={winners} />
+        </div>
         <hr style={{ color: 'white' }} />
+        <div>
+          <div style={{ fontWeight: 'bold', fontSize: 40, textAlign: 'center' }}>
+            TRACK SPECIFIC WINNERS
+          </div>
+          <div style={{ margin: 30 }}>
+            <p>Best education hack: </p>
+            <p>Best entertainment hack: </p>
+            <p>Best lifehack hack: </p>
+            <p>Best Use of Pi SDK (Sponsored by Pi Network): </p>
+            <p>Best Use of Data (Sponsored by Hudson River Trading):</p>
+            <p>Help make the Metaverse a reality! (Sponsored by Meta):</p>
+            <p>Best Educational Accessibility Hack (Sponsored by Tech Tree Root): </p>
+            <p>Best Use of MATLAB (Sponsored by MathWorks):</p>
+            <p>Best use of Sonr Flutter SDK (Sponsored by Sonr)</p>
+            <p>Best Contribution to the OSS Sonr Repository (Sponsored by Sonr)</p>
+            <p>Best IOS Project (Sponsored by LocketCamera)</p>
+            <p>Hack with AssemblyAI (Sponsored by AssemblyAI)</p>
+            <p>Sustainability Prize (Sponsored by RaptorMaps)</p>
+            <p>Best Use of Echo3D (Sponsored by Echo3D)</p>
+            <p>Best Use of GoogleCloud (Sponsored by GoogleCloud)</p>
+            <p>Best First Time Hack</p>
+            <p>Most Useless Hack</p>
+            <p>Most Funny Hack</p>
+            <p>Most Creative Use of GitHub</p>
+            <p>Best Domain Name from Domain.com</p>
+            <p>Best Accessibility Hack sponsored by Fidelity</p>
+            <p>Best Use of DeSo</p>
+          </div>
+
+        </div>
+        <hr style={{ color: 'white' }} />
+
       </div>
     </main>
   );
