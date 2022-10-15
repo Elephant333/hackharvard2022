@@ -1,7 +1,7 @@
 import React from 'react';
 import Finale from './Finale';
 import Navigator from './Navigator';
-import Sponsors from './Sponsers';
+import Sponsors from './Sponsors';
 import Winners from './Winners';
 import Gallery from './Gallery';
 import Highlight from './Highlight';
@@ -15,7 +15,7 @@ function App() {
     >
       <Navigator />
       <Finale />
-      <Winners />
+      {/* <Winners /> */}
       <Highlight />
       <Gallery />
       <Sponsors />
