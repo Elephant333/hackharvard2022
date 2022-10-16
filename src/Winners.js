@@ -184,7 +184,7 @@ export default function Winners() {
           <div style={{ fontWeight: 'bold', fontSize: 40, textAlign: 'center' }}>
             TRACK SPECIFIC WINNERS
           </div>
-          <div style={{ margin: 30 }}>
+          <div style={{ margin: 100 }}>
             <p>Best education hack: Clicentive </p>
             <p>Best entertainment hack: Mimetic</p>
             <p>Best lifehack hack: We Are Sus Drones</p>
