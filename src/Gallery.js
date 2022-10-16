@@ -2,35 +2,17 @@ import React from 'react';
 import styles from './styles/Gallery.module.css';
 
 export default function Gallery() {
+  const imageNames = ['606A0005.jpg', '606A0007.jpg', '606A0029.jpg', '606A0030.jpg', '606A0037.jpg', '606A0044.jpg', '606A0049.jpg', '606A0055.jpg', '606A0065.jpg', '606A0069.jpg', '606A0079.jpg', '606A0082.jpg', '606A0088.jpg', '606A0092.jpg', '606A0096.jpg', '606A0107.jpg', '606A0114.jpg', '606A0120.jpg', '606A0136.jpg', '606A0149.jpg', '606A0168.jpg', '606A0178.jpg', '606A0180.jpg', '606A0202.jpg', '606A0215.jpg', '606A0217.jpg', '606A0222.jpg', '606A0226.jpg', '606A0231.jpg', '606A0242.jpg', '606A0247.jpg', '606A0252.jpg', '606A0255.jpg', '606A0262.jpg', '606A0265.jpg', '606A0268.jpg', '606A0275.jpg', '606A0279.jpg', '606A0287.jpg', '606A0298.jpg', '606A0301.jpg', '606A0309.jpg', '606A0313.jpg', '606A0315.jpg', '606A0318.jpg', '606A0321.jpg', '606A0333.jpg', '606A0336.jpg', '606A0351.jpg', '606A0360.jpg', '606A0383.jpg', '606A0389.jpg', '606A0401.jpg', '606A0405.jpg', '606A0410.jpg', '606A0415.jpg', '606A0419.jpg', '606A0426.jpg', '606A0429.jpg', '606A0433.jpg', '606A0436.jpg', '606A0437.jpg', '606A0446.jpg', '606A0448.jpg', '606A0450.jpg', '606A0453.jpg', '606A0455.jpg', '606A0470.jpg', '606A0474.jpg', '606A0481.jpg', '606A0484.jpg', '606A0491.jpg', '606A0496.jpg', '606A0497.jpg', '606A0504.jpg', '606A0509.jpg', '606A0528.jpg', '606A0531.jpg', '606A0535.jpg', '606A0538.jpg', '606A0544.jpg', '606A0548.jpg', '606A0552.jpg', '606A0562.jpg', '606A0565.jpg', '606A0572.jpg', '606A0575.jpg', '606A0583.jpg', '606A0586.jpg', '606A0591.jpg', '606A0595.jpg', '606A0598.jpg', '606A0600.jpg', '606A0604.jpg', '606A0613.jpg', '606A0618.jpg', '606A0626.jpg', '606A0628.jpg', '606A0635.jpg', '606A0638.jpg', '606A0641.jpg', '606A0644.jpg', '606A0645.jpg', '606A0648.jpg', '606A0654.jpg', '606A0658.jpg', '606A0663.jpg', '606A0664.jpg', '606A0670.jpg', '606A0673.jpg', '606A0676.jpg', '606A0693.jpg', '606A0698.jpg', '606A0699.jpg', '606A0701.jpg', '606A0704.jpg', '606A0712.jpg', '606A0720.jpg', '606A0724.jpg', '606A0734.jpg', '606A0737.jpg', '606A0741.jpg', '606A0744.jpg', '606A0745.jpg', '606A0747.jpg', '606A0751.jpg', '606A0758.jpg', '606A0763.jpg', '606A0766.jpg', '606A0771.jpg', '606A0781.jpg', '606A9178.jpg', '606A9180.jpg', '606A9181.jpg', '606A9187.jpg', '606A9193.jpg', '606A9199.jpg', '606A9204.jpg', '606A9206.jpg', '606A9229.jpg', '606A9241.jpg', '606A9244.jpg', '606A9248.jpg', '606A9251.jpg', '606A9258.jpg', '606A9269.jpg', '606A9271.jpg', '606A9275.jpg', '606A9279.jpg', '606A9291.jpg', '606A9297.jpg', '606A9298.jpg', '606A9301.jpg', '606A9314.jpg', '606A9318.jpg', '606A9322.jpg', '606A9326.jpg', '606A9336.jpg', '606A9338.jpg', '606A9344.jpg', '606A9351.jpg', '606A9356.jpg', '606A9366.jpg', '606A9371.jpg', '606A9393.jpg', '606A9400.jpg', '606A9402.jpg', '606A9406.jpg', '606A9410.jpg', '606A9425.jpg', '606A9435.jpg', '606A9439.jpg', '606A9444.jpg', '606A9449.jpg', '606A9454.jpg', '606A9458.jpg', '606A9462.jpg', '606A9467.jpg', '606A9476.jpg', '606A9483.jpg', '606A9491.jpg', '606A9513.jpg', '606A9514.jpg', '606A9530.jpg', '606A9535.jpg', '606A9538.jpg', '606A9541.jpg', '606A9550.jpg', '606A9551.jpg', '606A9554.jpg', '606A9559.jpg', '606A9560.jpg', '606A9561.jpg', '606A9562.jpg', '606A9563.jpg', '606A9568.jpg', '606A9570.jpg', '606A9571.jpg', '606A9572.jpg', '606A9576.jpg', '606A9579.jpg', '606A9581.jpg', '606A9587.jpg', '606A9588.jpg', '606A9590.jpg', '606A9591.jpg', '606A9593.jpg', '606A9594.jpg', '606A9595.jpg', '606A9597.jpg', '606A9611.jpg', '606A9615.jpg', '606A9620.jpg', '606A9623.jpg', '606A9627.jpg', '606A9628.jpg', '606A9633.jpg', '606A9644.jpg', '606A9645.jpg', '606A9646.jpg', '606A9651.jpg', '606A9652.jpg', '606A9653.jpg', '606A9655.jpg', '606A9659.jpg', '606A9669.jpg', '606A9671.jpg', '606A9676.jpg', '606A9679.jpg', '606A9687.jpg', '606A9703.jpg', '606A9711.jpg', '606A9712.jpg', '606A9713.jpg', '606A9715.jpg', '606A9717.jpg', '606A9719.jpg', '606A9720.jpg', '606A9721.jpg', '606A9723.jpg', '606A9724.jpg', '606A9725.jpg', '606A9727.jpg', '606A9732.jpg', '606A9733.jpg', '606A9736.jpg', '606A9737.jpg', '606A9739.jpg', '606A9747.jpg', '606A9750.jpg', '606A9755.jpg', '606A9757.jpg', '606A9762.jpg', '606A9765.jpg', '606A9775.jpg', '606A9777.jpg', '606A9782.jpg', '606A9788.jpg', '606A9797.jpg', '606A9798.jpg', '606A9803.jpg', '606A9812.jpg', '606A9823.jpg', '606A9831.jpg', '606A9853.jpg', '606A9856.jpg', '606A9860.jpg', '606A9877.jpg', '606A9881.jpg', '606A9884.jpg', '606A9893.jpg', '606A9898.jpg', '606A9904.jpg', '606A9924.jpg', '606A9933.jpg', '606A9964.jpg', '606A9967.jpg', 'IMG_0926.JPG', 'IMG_0947.JPG'];
   return (
     <main className={styles.main}>
       <div className={styles.container}>
+        <div style={{ fontWeight: 'bold', fontSize: 40, textAlign: 'center' }}>HACKATHON PHOTOS</div>
         <div className={styles.gallery}>
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
+          {
+            imageNames.map((imageName) => (
+              <img src={require(`./photos/${imageName}`)} alt="Project" />
+            ))
+          }
         </div>
       </div>
     </main>
