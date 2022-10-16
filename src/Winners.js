@@ -205,7 +205,7 @@ export default function Winners() {
             <p>Most Useless Hack: Hi, Name</p>
             <p>Most Funny Hack: Rizzer </p>
             <p>Most Creative Use of GitHub</p>
-            <p>Best Domain Name from Domain.com</p>
+            <p>Best Domain Name from Domain.com: wearesus.tech</p>
             <p>Best Accessibility Hack sponsored by Fidelity</p>
             <p>Best Use of DeSo</p>
           </div>
