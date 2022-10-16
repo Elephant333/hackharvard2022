@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.039a657a.css",
-    "main.js": "/static/js/main.b0278353.js",
+    "main.js": "/static/js/main.cf7133b7.js",
     "static/media/DexteriKey.JPG": "/static/media/DexteriKey.796fc1ce520ac63a2690.JPG",
     "static/media/pompi.JPG": "/static/media/pompi.f7ec31bae66343d2411b.JPG",
     "static/media/recipe.JPG": "/static/media/recipe.63f90bc7685760816ef5.JPG",
@@ -311,10 +311,10 @@
     "static/media/606A0698.jpg": "/static/media/606A0698.d09db0fcd5bed13fc345.jpg",
     "index.html": "/index.html",
     "main.039a657a.css.map": "/static/css/main.039a657a.css.map",
-    "main.b0278353.js.map": "/static/js/main.b0278353.js.map"
+    "main.cf7133b7.js.map": "/static/js/main.cf7133b7.js.map"
   },
   "entrypoints": [
     "static/css/main.039a657a.css",
-    "static/js/main.b0278353.js"
+    "static/js/main.cf7133b7.js"
   ]
 }
