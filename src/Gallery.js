@@ -1,38 +1,28 @@
 import React from 'react';
-import styles from './styles/Gallery.module.css';
+import { useState } from 'react';
+import imgg from './assets/images/1.jpg';
+import styles from './styles/Gallery.module.css'
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function Gallery() {
+  const imgList = [
+    imgg,
+    imgg,
+    imgg,
+    imgg,
+    imgg,
+    imgg,
+    imgg,
+  ];
   return (
-    <main className={styles.main}>
-      <div className={styles.container}>
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-
-        <div className={styles.gallery}>
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400" />
-          </a>
-          <div className="desc">Add a description of the image here</div>
-        </div>
-      </div>
-    </main>
+    <div className={styles.images}>
+    {imgList.map((img, idx) => {
+          return (
+            <div className={styles.image} key = {idx} >
+              <img src={img}/>
+            </div>
+          );
+      })}
+    </div>
   );
 }
