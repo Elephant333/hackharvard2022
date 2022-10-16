@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import styles from './styles/Winners.module.css';
@@ -138,15 +139,15 @@ function Podium({ winners }) {
 const winners = [
   {
     id: '1tfjiELNrwYAJeafRYlT9RwOIiD', // id's for the photos
-    name: 'Team Name #1',
+    name: 'Empath.ly',
   },
   {
     id: '1tfjiFoinFrbdLWlPI52dRLhNlD',
-    name: 'Team Name #2',
+    name: 'We are Sus Drones',
   },
   {
     id: '1tfjiDIAS8f2UYgV9ynCqWi7rZD',
-    name: 'Team Name #3',
+    name: 'SenseSight',
   },
 ].map((winner, position) => ({ ...winner, position }));
 
@@ -184,24 +185,25 @@ export default function Winners() {
             TRACK SPECIFIC WINNERS
           </div>
           <div style={{ margin: 30 }}>
-            <p>Best education hack: </p>
-            <p>Best entertainment hack: </p>
-            <p>Best lifehack hack: </p>
-            <p>Best Use of Pi SDK (Sponsored by Pi Network): </p>
-            <p>Best Use of Data (Sponsored by Hudson River Trading):</p>
-            <p>Help make the Metaverse a reality! (Sponsored by Meta):</p>
-            <p>Best Educational Accessibility Hack (Sponsored by Tech Tree Root): </p>
-            <p>Best Use of MATLAB (Sponsored by MathWorks):</p>
+            <p>Best education hack: Clicentive </p>
+            <p>Best entertainment hack: Mimetic</p>
+            <p>Best lifehack hack: We Are Sus Drones</p>
+            <p>Best Use of Pi SDK (Sponsored by Pi Network): We Are Sus Drones</p>
+            <p>Best Use of Data (Sponsored by Hudson River Trading): NFT Laundromat</p>
+            <p>Help make the Metaverse a reality! (Sponsored by Meta): Mimetic </p>
+            <p>Best Educational Accessibility Hack (Sponsored by Tech Tree Root): Gorillamatics </p>
+            <p>Best Use of MATLAB (Sponsored by MathWorks): Internal Combustion Engine Analyzer App  </p>
+            <p>Best Use of MATLAB (Sponsored by MathWorks) (Runner up): Morpheus   </p>
             <p>Best use of Sonr Flutter SDK (Sponsored by Sonr)</p>
             <p>Best Contribution to the OSS Sonr Repository (Sponsored by Sonr)</p>
-            <p>Best IOS Project (Sponsored by LocketCamera)</p>
-            <p>Hack with AssemblyAI (Sponsored by AssemblyAI)</p>
-            <p>Sustainability Prize (Sponsored by RaptorMaps)</p>
-            <p>Best Use of Echo3D (Sponsored by Echo3D)</p>
+            <p>Best IOS Project (Sponsored by LocketCamera): Pompi </p>
+            <p>Hack with AssemblyAI (Sponsored by AssemblyAI): Metaspeak</p>
+            <p>Sustainability Prize (Sponsored by RaptorMaps): We Are Sus Drones</p>
+            <p>Best Use of Echo3D (Sponsored by Echo3D): Pompi</p>
             <p>Best Use of GoogleCloud (Sponsored by GoogleCloud)</p>
-            <p>Best First Time Hack</p>
-            <p>Most Useless Hack</p>
-            <p>Most Funny Hack</p>
+            <p>Best First Time Hack: Tag</p>
+            <p>Most Useless Hack: Hi, Name</p>
+            <p>Most Funny Hack: Rizzer </p>
             <p>Most Creative Use of GitHub</p>
             <p>Best Domain Name from Domain.com</p>
             <p>Best Accessibility Hack sponsored by Fidelity</p>

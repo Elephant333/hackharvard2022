@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
 import React from 'react';
