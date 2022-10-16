@@ -194,20 +194,20 @@ export default function Winners() {
             <p>Best Educational Accessibility Hack (Sponsored by Tech Tree Root): Gorillamatics </p>
             <p>Best Use of MATLAB (Sponsored by MathWorks): Internal Combustion Engine Analyzer App  </p>
             <p>Best Use of MATLAB (Sponsored by MathWorks) (Runner up): Morpheus   </p>
-            <p>Best use of Sonr Flutter SDK (Sponsored by Sonr)</p>
-            <p>Best Contribution to the OSS Sonr Repository (Sponsored by Sonr)</p>
+            {/* <p>Best use of Sonr Flutter SDK (Sponsored by Sonr)</p>
+            <p>Best Contribution to the OSS Sonr Repository (Sponsored by Sonr)</p> */}
             <p>Best IOS Project (Sponsored by LocketCamera): Pompi </p>
             <p>Hack with AssemblyAI (Sponsored by AssemblyAI): Metaspeak</p>
             <p>Sustainability Prize (Sponsored by RaptorMaps): We Are Sus Drones</p>
             <p>Best Use of Echo3D (Sponsored by Echo3D): Pompi</p>
-            <p>Best Use of GoogleCloud (Sponsored by GoogleCloud)</p>
+            {/* <p>Best Use of GoogleCloud (Sponsored by GoogleCloud)</p> */}
             <p>Best First Time Hack: Tag</p>
             <p>Most Useless Hack: Hi, Name</p>
             <p>Most Funny Hack: Rizzer </p>
-            <p>Most Creative Use of GitHub</p>
+            {/* <p>Most Creative Use of GitHub</p> */}
             <p>Best Domain Name from Domain.com: wearesus.tech</p>
-            <p>Best Accessibility Hack sponsored by Fidelity</p>
-            <p>Best Use of DeSo</p>
+            {/* <p>Best Accessibility Hack sponsored by Fidelity</p> */}
+            {/* <p>Best Use of DeSo</p> */}
           </div>
 
         </div>
