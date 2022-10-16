@@ -10,7 +10,7 @@ export default function Gallery() {
         <div className={styles.gallery}>
           {
             imageNames.map((imageName) => (
-              <img src={require(`./photos/${imageName}`)} alt="Project" />
+              <img key={imageName} src={require(`./photos/${imageName}`)} alt="Project" />
             ))
           }
         </div>

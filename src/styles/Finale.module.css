@@ -171,7 +171,7 @@
 }
 
 .finalMessage {
-  border: 6px solid #ffffff;
+  /* border: 6px solid #ffffff; */
   padding: 1rem 2rem 1rem 2rem;
   font-family: 'Zig';
   font-weight: 400;
