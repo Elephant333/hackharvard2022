@@ -59,7 +59,7 @@ export default function Highlight() {
               <div style={{ textAlign: 'center' }} className="col">
                 <p style={{ fontWeight: 'bold', fontSize: 20 }}>Pompi</p>
                 <p style={{ fontSize: 16 }}>
-                  Users are welcomed by our virtual avatar, Pompy! Pompy is meant to be a virtual friend for users during quarantine. Users can view Pompy in 3D to see it with them in real-time and interact with Pompy. Users can also view a live recent data map that shows the relevance of COVID-19 even at this time. Users can also take a photo of their food to see the number of calories they eat to stay healthy during quarantine. Users can also escape their reality by entering a different landscape in 3D. Lastly, users can view a roadmap of next steps in their journey to get through their quarantine, and to speak to Pompy.
+                  Users are welcomed by our virtual avatar, Pompi! Pompi is meant to be a virtual friend for users during quarantine. Users can view Pompi in 3D to see it with them in real-time and interact with Pompi. Users can also view a live recent data map that shows the relevance of COVID-19 even at this time. Users can also take a photo of their food to see the number of calories they eat to stay healthy during quarantine. Users can also escape their reality by entering a different landscape in 3D. Lastly, users can view a roadmap of next steps in their journey to get through their quarantine, and to speak to Pompi.
                 </p>
               </div>
             </Col>

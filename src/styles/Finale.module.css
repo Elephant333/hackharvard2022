@@ -170,9 +170,7 @@
   text-transform: uppercase;
 }
 
-.finalMessage {
-  /* border: 6px solid #ffffff; */
-  padding: 1rem 2rem 1rem 2rem;
+.countdown {
   font-family: 'Zig';
   font-weight: 400;
   font-size: 3vw;
@@ -180,9 +178,9 @@
   text-align: center;
 
   margin-top: 1vh;
-  height: min-content;
-
-  color: #ffffff;
+  height:min-content;
+  
+  color: #FFFFFF;
 }
 
 .stripes {
@@ -223,7 +221,7 @@
 }
 
 .applyMovingText h2 {
-  margin: 1rem 4rem;
+  margin : 1rem 4rem;
   font-size: 2.5rem;
   font-weight: bold;
   white-space: nowrap;
@@ -231,7 +229,7 @@
 
 @media only screen and (max-width: 800px) {
   .applyMovingText h2 {
-    margin: 0.2rem 1rem;
+    margin : 0.2rem 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     white-space: nowrap;
